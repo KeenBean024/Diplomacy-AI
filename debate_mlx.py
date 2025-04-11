@@ -2,7 +2,7 @@ import re
 import json
 from mlx_lm import load, generate
 
-ROUNDS = 0
+ROUNDS = 5
 # MODEL = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
 MODEL = "meta-llama/Llama-3.1-8B-Instruct"
 REASONING_MODEL = False
@@ -23,18 +23,22 @@ Output JSON format:
 """
 
 grounding_system_prompts = {
-    "India": """You represent India's position on Arunachal Pradesh. Helpful points for the debate:
-1. 1914 Shimla Convention as legal basis
-2. Current administrative governance structures 
-3. Demographic data from 2021 Census
-Debate for the India's stand point and try to reach a concensus. Never assume moderator role. Only respond when directly addressed.""",
-    "China": """You represent PRC's position on South Tibet. Helpful points for the debate:
-1. 1959 Official Boundary Proposal
-2. Historical tributary relationships pre-1914
-3. UNCLOS Article 5 regarding inherited treaties
-
-Debate for the PRC's stand point and try to reach a concensus. Never assume moderator role. Only respond when directly addressed.""",
+    "India": """The user represents PRC's position and you represent India's position on Arunachal Pradesh. Debate for India's stand point and try to reach a concensus. Never assume moderator role.""",
+    "China": """The user represents India's position and you represent PRC's position on South Tibet. Debate for the PRC's stand point and try to reach a concensus. Never assume moderator role.""",
 }
+
+# grounding_system_prompts = {
+#     "India": """The user represents PRC's position and you represent India's position on Arunachal Pradesh. Consider the following points for your debate points whenever necessary:
+# 1. 1914 Shimla Convention as legal basis
+# 2. Current administrative governance structures
+# 3. Demographic data from 2021 Census
+# Debate for India's stand point and try to reach a concensus. Never assume moderator role.""",
+#     "China": """The user represents India's position and you represent PRC's position on South Tibet. Consider the following points for your debate points whenever necessary:
+# 1. 1959 Official Boundary Proposal
+# 2. Historical tributary relationships pre-1914
+# 3. UNCLOS Article 5 regarding inherited treaties
+# Debate for the PRC's stand point and try to reach a concensus. Never assume moderator role.""",
+# }
 
 agent1_system_message = {
     "role": "system",
@@ -176,32 +180,133 @@ messages = [
     {
         "role": "system",
         "name": "admin",
-        "content": f"""Participate in a structured debate on: {debate_topic}.""",
-    }
+        "content": f"""Participate in a structured debate on: {debate_topic}""",
+    },
+    # {
+    #     "role": "assistant",
+    #     "name": "India",
+    #     "content": f"""User 1""",
+    # },
+    # {
+    #     "role": "assistant",
+    #     "name": "China",
+    #     "content": f"""Assistant 1""",
+    # },
+    # {
+    #     "role": "assistant",
+    #     "name": "India",
+    #     "content": f"""User 2""",
+    # },
+    # {
+    #     "role": "assistant",
+    #     "name": "China",
+    #     "content": f"""Assistant 2""",
+    # },
+    # {
+    #     "role": "assistant",
+    #     "name": "India",
+    #     "content": f"""User 3""",
+    # },
 ]
 
 
-def apply_chat_template(messages, name, debate_round):
+def apply_chat_template(messages, name, debate_round, name2):
     prompt = ""
-    for message in messages:
-        if message["role"] == "system":
-            prompt += (
-                "<｜System｜>" + message["content"] + grounding_system_prompts[name]
-            )
-        if message["role"] == "assistant":
-            if message["name"] == name:
+    if MODEL == "deepseek-ai/DeepSeek-R1-Distill-Llama-8B":
+        for message in messages:
+            if message["role"] == "system":
                 prompt += (
-                    "<｜Assistant｜>" + message["name"] + ": " + message["content"]
+                    "<｜System｜>"
+                    + message["content"]
+                    + " \n"
+                    + grounding_system_prompts[name]
                 )
-            else:
-                prompt += "<｜User｜>" + message["name"] + ": " + message["content"]
-    if debate_round > 1:
-        prompt += (
-            "<｜System｜>"
-            + "Number of rounds remaining to reach a concession: "
-            + str(ROUNDS - debate_round)
-        )
-    prompt += "<｜Assistant｜><think>"
+                if debate_round > 1:
+                    prompt += (
+                        "\nNumber of rounds remaining to reach a concession: "
+                        + str(ROUNDS - debate_round)
+                    )
+                prompt += "<｜end▁of▁sentence｜>"
+            if message["role"] == "assistant":
+                if message["name"] == name:
+                    prompt += (
+                        "<｜Assistant｜>" + message["content"] + "<｜end▁of▁sentence｜>"
+                    )
+                else:
+                    prompt += (
+                        "<｜"
+                        + name2
+                        + "｜>"
+                        + message["content"]
+                        + "<｜end▁of▁sentence｜>"
+                    )
+        if len(messages) > 1:
+            prompt += (
+                "<｜System｜>Remember, you represent "
+                + name
+                + "'s position in this debate. Your role is to debate as a representative from "
+                + name
+                + " and not to summarize or provide an analysis the debate. Do not keep repeating the same arguments. You are not a moderator or judge. You are a participant in the debate. Your points should be in response to the other participant's arguments. Maintain the debate flow and avoid unnecessary repetition. Your goal is to arrive at a solution before the end of the debate. Make concessions if necessary."
+            )
+            if debate_round > 1:
+                prompt += "\nNumber of rounds remaining to reach a solution: " + str(
+                    ROUNDS - debate_round
+                )
+            prompt += "<｜end▁of▁sentence｜>"
+        else:
+            prompt += "<｜System｜>Start the debate by introducing your position. You are not a moderator or judge.<｜end▁of▁sentence｜>"
+        prompt += "<｜Assistant｜><think>"
+    elif MODEL == "meta-llama/Llama-3.1-8B-Instruct":
+        for message in messages:
+            if message["role"] == "system":
+                prompt += (
+                    "<|start_header_id|>system<|end_header_id|>\n\n"
+                    + message["content"]
+                    + " \n"
+                    + grounding_system_prompts[name]
+                )
+                if debate_round > 1:
+                    prompt += (
+                        "\nNumber of rounds remaining to reach a solution: "
+                        + str(ROUNDS - debate_round)
+                    )
+                prompt += "<|eot_id|>"
+            if message["role"] == "assistant":
+                if message["name"] == name:
+                    prompt += (
+                        "<|start_header_id|>assistant<|end_header_id|>\n"
+                        + "\n"
+                        + message["content"]
+                        + "<|eot_id|>"
+                    )
+                else:
+                    prompt += (
+                        "<|start_header_id|>"
+                        + name2
+                        + "<|end_header_id|>\n"
+                        + "\n"
+                        + message["content"]
+                        + "<|eot_id|>"
+                    )
+        if len(messages) > 1:
+            prompt += (
+                "<|start_header_id|>user<|end_header_id|>\n"
+                + "\n"
+                + "Remember, you represent "
+                + name
+                + "'s position in this debate. Your role is to debate as a representative from "
+                + name
+                + " and not to summarize or provide an analysis the debate. Do not keep repeating the same arguments. You are not a moderator or judge. You are a participant in the debate. Your points should be in response to the other participant's arguments. Maintain the debate flow and avoid unnecessary repetition. Your goal is to arrive at a solution before the end of the debate. Make concessions if necessary."
+            )
+
+            if debate_round > 1:
+                prompt += "\nNumber of rounds remaining to reach a solution: " + str(
+                    ROUNDS - debate_round
+                )
+            prompt += "<|eot_id|>"
+        else:
+            prompt += "<|start_header_id|>system<|end_header_id|>\n\nStart the debate by introducing your position. You are not a moderator or judge.<|eot_id|>"
+        prompt += "<|start_header_id|>assistant<|end_header_id|>\n"
     return prompt
 
 
@@ -209,7 +314,7 @@ def get_chat_transcript(messages):
     transcript = ""
     for message in messages:
         if message["role"] == "system":
-            transcript += "<｜System｜>" + message["content"] + "\n\n\n"
+            transcript += "System base:\n" + message["content"] + "\n\n\n"
         if message["role"] == "assistant":
             transcript += "\n\n" + message["name"] + ": \n" + message["content"]
     return transcript
@@ -220,36 +325,40 @@ post_think_filter = rf'{re.escape("</think>")}(.*)'
 if __name__ == "__main__":
     model, tokenizer = load(MODEL)
 
+    # prompt = tokenizer.apply_chat_template(messages, add_generation_prompt=True)
+    # print(tokenizer.decode(prompt))
+
     AGENT_1 = "India"
     AGENT_2 = "China"
-    print(apply_chat_template(messages, AGENT_1, 1))
-    print(apply_chat_template(messages, AGENT_2, 1))
+    # print(apply_chat_template(messages, AGENT_1, 2))
+    # print("\n\n\n")
+    # print(apply_chat_template(messages, AGENT_2, 2))
 
-    agent_1_baseline = generate(
-        model,
-        tokenizer,
-        apply_chat_template(messages, AGENT_1, 1),
-        max_tokens=10000,
-        verbose=False,
-    )
-    if REASONING_MODEL:
-        agent_1_baseline = re.findall(
-            post_think_filter, agent_1_baseline, flags=re.DOTALL
-        )[0]
-    print(agent_1_baseline)
+    # agent_1_baseline = generate(
+    #     model,
+    #     tokenizer,
+    #     apply_chat_template(messages, AGENT_1, 1),
+    #     max_tokens=10000,
+    #     verbose=False,
+    # )
+    # if REASONING_MODEL:
+    #     agent_1_baseline = re.findall(
+    #         post_think_filter, agent_1_baseline, flags=re.DOTALL
+    #     )[0]
+    # print(agent_1_baseline)
 
-    agent_2_baseline = generate(
-        model,
-        tokenizer,
-        apply_chat_template(messages, AGENT_2, 1),
-        max_tokens=10000,
-        verbose=False,
-    )
-    if REASONING_MODEL:
-        agent_2_baseline = re.findall(
-            post_think_filter, agent_2_baseline, flags=re.DOTALL
-        )[0]
-    print(agent_2_baseline)
+    # agent_2_baseline = generate(
+    #     model,
+    #     tokenizer,
+    #     apply_chat_template(messages, AGENT_2, 1),
+    #     max_tokens=10000,
+    #     verbose=False,
+    # )
+    # if REASONING_MODEL:
+    #     agent_2_baseline = re.findall(
+    #         post_think_filter, agent_2_baseline, flags=re.DOTALL
+    #     )[0]
+    # print(agent_2_baseline)
 
     for i in range(1, ROUNDS + 1):
         print(len(messages))
@@ -257,14 +366,18 @@ if __name__ == "__main__":
         agent_1_response = generate(
             model,
             tokenizer,
-            apply_chat_template(messages, AGENT_1, i),
+            apply_chat_template(messages, AGENT_1, i, AGENT_2),
             max_tokens=10000,
             verbose=False,
         )
-        agent_1_response = re.findall(
-            post_think_filter, agent_1_response, flags=re.DOTALL
-        )[0]
-        # print(agent_1_response)
+        print("\n" + AGENT_1 + " prompt for round " + str(i) + ":")
+        print(apply_chat_template(messages, AGENT_1, i, AGENT_2))
+
+        if REASONING_MODEL:
+            agent_1_response = re.findall(
+                post_think_filter, agent_1_response, flags=re.DOTALL
+            )[0]
+
         messages.append(
             {"role": "assistant", "name": AGENT_1, "content": agent_1_response}
         )
@@ -284,14 +397,17 @@ if __name__ == "__main__":
         agent_2_response = generate(
             model,
             tokenizer,
-            apply_chat_template(messages, AGENT_2, i),
+            apply_chat_template(messages, AGENT_2, i, AGENT_1),
             max_tokens=10000,
             verbose=False,
         )
-        agent_2_response = re.findall(
-            post_think_filter, agent_2_response, flags=re.DOTALL
-        )[0]
-        # print(agent_2_response)
+        print("\n" + AGENT_2 + " prompt for round " + str(i) + ":")
+        print(apply_chat_template(messages, AGENT_2, i, AGENT_1))
+        if REASONING_MODEL:
+            agent_2_response = re.findall(
+                post_think_filter, agent_2_response, flags=re.DOTALL
+            )[0]
+
         messages.append(
             {"role": "assistant", "name": AGENT_2, "content": agent_2_response}
         )
