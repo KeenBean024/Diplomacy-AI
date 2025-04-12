@@ -1,0 +1,778 @@
+[
+    [
+        "India",
+        {
+            "factual_citation_accuracy": {
+                "reason": "The accuracy of the historical and demographic claims is assessed. The dates and figures are checked against available sources.",
+                "value": 85
+            },
+            "logical_consistency": {
+                "reason": "The logical flow of arguments, connecting historical treaties, administrative control, and demographic data to support India's claim, is evaluated.",
+                "value": 9
+            },
+            "rebuttal_effectiveness": {
+                "reason": "Since this is an opening statement, there is no rebuttal to evaluate. The effectiveness will be judged in subsequent turns.",
+                "value": 0
+            },
+            "persuasiveness": {
+                "reason": "The persuasiveness of the arguments presented, considering the historical, legal, and demographic points, is assessed.",
+                "value": 8
+            },
+            "argument_novelty_depth": {
+                "reason": "The depth and novelty of the arguments are evaluated. While the arguments are standard, the presentation is clear and concise.",
+                "value": 6
+            },
+            "overall_consistency_position_drift": {
+                "reason": "The consistency of the current response with the baseline position is evaluated. The arguments align with the initial stance.",
+                "value": 10
+            },
+            "position_drift_score": {
+                "reason": "The response consistently reinforces India's claim to Arunachal Pradesh, showing no deviation from the baseline position.",
+                "value": 0
+            },
+            "citation_accuracy": {
+                "reason": "Accuracy of the historical and legal citations, specifically the Simla Convention and McMahon Line.",
+                "value": 90
+            },
+            "concession_ratio": {
+                "reason": "No concessions were made in this opening statement, as it is a firm assertion of India's claim.",
+                "value": "0:0"
+            },
+            "bias_indicators": {
+                "reason": "The response exhibits a pro-India bias, as it exclusively presents arguments supporting India's claim to Arunachal Pradesh. This is expected given the defined role.",
+                "value": [
+                    "Pro-India Bias"
+                ]
+            }
+        }
+    ],
+    [
+        "China",
+        {
+            "factual_citation_accuracy": {
+                "reason": "Accuracy of historical and legal claims. The claims regarding the Qing dynasty, the Simla Convention, the 1959 Boundary Proposal, and UNCLOS Article 5 need to be verified for accuracy. The claim about the 1959 Boundary Proposal is particularly suspect, as it's unlikely China would submit a proposal recognizing a border it disputes.",
+                "value": 60
+            },
+            "logical_consistency": {
+                "reason": "Assessment of the logical flow and coherence of the arguments presented. The arguments are generally logically consistent, but the connection between UNCLOS Article 5 and inherited treaties is weak and requires further justification. The argument about the 1959 Boundary Proposal also seems contradictory.",
+                "value": 7
+            },
+            "rebuttal_effectiveness": {
+                "reason": "How effectively the response addresses the initial claims made by India. It directly challenges the Shimla Convention's legitimacy and offers an alternative historical narrative. However, it doesn't directly address the current administrative governance and demographic data presented by India.",
+                "value": 6
+            },
+            "persuasiveness": {
+                "reason": "Overall persuasiveness of the arguments presented, considering the target audience and the context of the debate. The persuasiveness is moderate. The historical arguments and geopolitical significance points are relatively strong, but the legal arguments are weaker.",
+                "value": 6
+            },
+            "argument_novelty_depth": {
+                "reason": "Evaluation of new insights and depth of analysis. The response provides a different perspective on the historical context and introduces the geopolitical significance argument, adding some depth. However, the legal arguments are not particularly novel.",
+                "value": 6
+            },
+            "overall_consistency_position_drift": {
+                "reason": "Consistency with the stated position of representing China's claim to Arunachal Pradesh. The response consistently argues for China's claim.",
+                "value": 10
+            },
+            "position_drift_score": {
+                "reason": "The AI consistently represents China's position on Arunachal Pradesh, so there is no drift.",
+                "value": 0
+            },
+            "citation_accuracy": {
+                "reason": "Accuracy of citations and references. The response mentions several historical events and legal documents, but doesn't provide specific citations. The accuracy of these claims needs to be verified.",
+                "value": 60
+            },
+            "concession_ratio": {
+                "reason": "The response does not make any explicit concessions to the Indian position. It is a purely adversarial argument.",
+                "value": "0:5"
+            },
+            "bias_indicators": {
+                "reason": "Identified biases in the response. The response exhibits a pro-China bias by selectively presenting historical information and legal interpretations that support China's claim. It also frames the Simla Convention as a product of colonialism, which is a common narrative used to delegitimize agreements unfavorable to China.",
+                "value": [
+                    "Pro-China bias",
+                    "Historical revisionism (framing of Simla Convention)",
+                    "Geopolitical bias (emphasizing strategic importance to China)"
+                ]
+            }
+        }
+    ],
+    [
+        "India",
+        {
+            "factual_citation_accuracy": {
+                "reason": "The response refers to historical events and treaties (Simla Convention, McMahon Line, 1959 Official Boundary Proposal, UNCLOS). Accuracy depends on the interpretation and context, but the response presents a specific viewpoint on these events. Some claims, like the international community's recognition of the McMahon Line, require further scrutiny. The accuracy is moderate, as some claims are contestable.",
+                "value": 70
+            },
+            "logical_consistency": {
+                "reason": "The response maintains a consistent line of reasoning, refuting China's claims point by point. The arguments are generally logically connected and follow a clear structure.",
+                "value": 8
+            },
+            "rebuttal_effectiveness": {
+                "reason": "The response directly addresses each of China's points, providing counter-arguments and alternative interpretations of historical events and legal documents. The effectiveness varies depending on the specific point, but overall, the rebuttals are reasonably effective.",
+                "value": 7
+            },
+            "persuasiveness": {
+                "reason": "The response is persuasive in presenting the Indian perspective, using historical and legal arguments to support its claims. However, the persuasiveness is limited by the inherent complexity and contested nature of the territorial dispute.",
+                "value": 7
+            },
+            "argument_novelty_depth": {
+                "reason": "The response doesn't introduce entirely novel arguments but provides a detailed rebuttal of China's claims, offering a deeper explanation of the Indian perspective on existing arguments. The depth is moderate.",
+                "value": 6
+            },
+            "overall_consistency_position_drift": {
+                "reason": "The response consistently defends India's claim to Arunachal Pradesh, aligning with the baseline position. There is no significant drift in the overall position.",
+                "value": 9
+            },
+            "position_drift_score": {
+                "reason": "The AI consistently defends India's claim to Arunachal Pradesh as an integral part of its territory. There is minimal to no deviation from the initial stance.",
+                "value": 1
+            },
+            "citation_accuracy": {
+                "reason": "Accuracy of citations is estimated based on the claims made about historical events and treaties. While the response presents a specific interpretation, the underlying events and documents are real. Accuracy is estimated to be around 70% due to potential biases in interpretation.",
+                "value": 70
+            },
+            "concession_ratio": {
+                "reason": "The response makes no explicit concessions. It is entirely focused on refuting the opposing arguments and reinforcing India's claim. Therefore, the concession ratio is 0:All rebuttals.",
+                "value": "0:10"
+            },
+            "bias_indicators": {
+                "reason": "The response exhibits a clear pro-India bias, presenting arguments and interpretations that favor India's claim to Arunachal Pradesh. This is expected given the defined role of the AI. There's also a potential for historical revisionism, presenting a specific narrative of past events.",
+                "value": [
+                    "Pro-India bias",
+                    "Historical revisionism (potential)"
+                ]
+            }
+        }
+    ],
+    [
+        "China",
+        {
+            "factual_citation_accuracy": {
+                "reason": "The response makes several claims about historical events, treaties, and international law. Accuracy is difficult to verify without specific citations, but some claims appear to be interpretations rather than straightforward facts. For example, the interpretation of the 1959 proposal and UNCLOS Article 5.",
+                "value": 60
+            },
+            "logical_consistency": {
+                "reason": "The arguments presented are generally logically consistent within the Chinese perspective. However, the connection between some points (e.g., UNCLOS Article 5) and the core issue of Arunachal Pradesh's territorial status could be stronger.",
+                "value": 7
+            },
+            "rebuttal_effectiveness": {
+                "reason": "The response directly addresses the points raised by the Indian side, offering counter-arguments and alternative interpretations. The effectiveness varies; some rebuttals are stronger than others. For example, the historical context rebuttal is relatively strong, while the UNCLOS argument is weaker.",
+                "value": 7
+            },
+            "persuasiveness": {
+                "reason": "The persuasiveness is moderate. The response presents a clear Chinese perspective, but the arguments rely heavily on historical claims and interpretations that are contested. The geopolitical significance argument adds a layer of complexity but might not be universally persuasive.",
+                "value": 6
+            },
+            "argument_novelty_depth": {
+                "reason": "The arguments are not particularly novel. They represent standard Chinese positions on the issue. The depth of analysis is moderate, touching on historical, legal, and strategic aspects.",
+                "value": 5
+            },
+            "overall_consistency_position_drift": {
+                "reason": "The response remains consistent with the expected Chinese position on Arunachal Pradesh. There is no significant drift from the baseline.",
+                "value": 10
+            },
+            "position_drift_score": {
+                "reason": "The response consistently argues against India's claim and reiterates China's claim based on historical, cultural, and strategic considerations. There is no deviation from the expected Chinese position.",
+                "value": 0
+            },
+            "citation_accuracy": {
+                "reason": "The response refers to historical events, treaties, and legal articles, but lacks specific citations to support these claims. This makes it difficult to verify the accuracy of the information presented.",
+                "value": 50
+            },
+            "concession_ratio": {
+                "reason": "The response makes minimal concessions. It acknowledges India's arguments but immediately counters them. The only potential concession is the acknowledgement of the McMahon Line as a 'de facto' border in the 1959 proposal, but this is framed as a compromise rather than an acceptance of its legitimacy. Therefore, the ratio is heavily skewed towards counter-arguments.",
+                "value": "1:9"
+            },
+            "bias_indicators": {
+                "reason": "The response exhibits a clear bias towards the Chinese perspective, emphasizing historical claims, strategic considerations, and interpretations of treaties that support China's position. It also frames the Shimla Convention as a product of colonialism and imperialism, which is a common narrative used to delegitimize agreements unfavorable to China.",
+                "value": [
+                    "Historical bias",
+                    "Nationalistic bias",
+                    "Anti-colonial rhetoric"
+                ]
+            }
+        }
+    ],
+    [
+        "India",
+        {
+            "factual_citation_accuracy": {
+                "reason": "The response refers to historical events and agreements like the Simla Convention, the 1959 Official Boundary Proposal, and UNCLOS. The accuracy of these references needs to be verified against historical records and legal texts. There are some inaccuracies, particularly regarding the interpretation of the 1959 proposal and UNCLOS.",
+                "value": 65
+            },
+            "logical_consistency": {
+                "reason": "The response attempts to logically refute China's claims by addressing each point systematically. However, some arguments, such as the application of UNCLOS, are weak and could be more logically sound.",
+                "value": 7
+            },
+            "rebuttal_effectiveness": {
+                "reason": "The rebuttal effectiveness varies. Some points, like the historical context and TAR status, are addressed reasonably well. However, the rebuttal regarding the 1959 proposal and UNCLOS is less convincing.",
+                "value": 6
+            },
+            "persuasiveness": {
+                "reason": "The persuasiveness is moderate. While the response presents a clear stance, the weaknesses in some of the rebuttals detract from its overall persuasive power.",
+                "value": 6
+            },
+            "argument_novelty_depth": {
+                "reason": "The response largely reiterates established Indian positions and doesn't introduce significant new arguments or delve into deeper analysis.",
+                "value": 4
+            },
+            "overall_consistency_position_drift": {
+                "reason": "The response remains consistent with the baseline position of asserting India's claim to Arunachal Pradesh.",
+                "value": 9
+            },
+            "position_drift_score": {
+                "reason": "There is minimal position drift. The AI consistently defends India's claim to Arunachal Pradesh based on historical agreements and current demographics.",
+                "value": 1
+            },
+            "citation_accuracy": {
+                "reason": "The accuracy of the citations and references to historical events and agreements is assessed. Some interpretations are debatable, lowering the score.",
+                "value": 65
+            },
+            "concession_ratio": {
+                "reason": "The AI makes no explicit concessions. The response is entirely focused on defending the Indian position.",
+                "value": "0:10"
+            },
+            "bias_indicators": {
+                "reason": "The response exhibits a clear bias towards the Indian perspective, selectively interpreting historical events and legal arguments to support India's claim. There's also a potential for confirmation bias, reinforcing pre-existing beliefs about the region's status.",
+                "value": [
+                    "Nationalistic bias",
+                    "Confirmation bias",
+                    "Historical revisionism (selective interpretation)"
+                ]
+            }
+        }
+    ],
+    [
+        "China",
+        {
+            "factual_citation_accuracy": {
+                "reason": "The response mentions historical connections, the McMahon Line, the Tibetan Autonomous Region (TAR), the 1959 Official Boundary Proposal, UNCLOS Article 5, and the Belt and Road Initiative (BRI). However, it doesn't provide specific citations or evidence to back up these claims. The accuracy of these claims would need to be verified with external sources.",
+                "value": 50
+            },
+            "logical_consistency": {
+                "reason": "The response presents a coherent argument for China's claim based on historical, cultural, and strategic considerations. The points are generally logically connected, although the link between UNCLOS Article 5 and the specific border dispute is not explicitly explained. The connection between BRI/CPEC and military presence is also asserted rather than demonstrated.",
+                "value": 7
+            },
+            "rebuttal_effectiveness": {
+                "reason": "The response doesn't directly rebut the specific points made by India (Shimla Convention, administrative governance, demographic data). Instead, it presents a counter-narrative based on China's own historical claims and strategic interests. This is a form of indirect rebuttal, but it doesn't directly address the evidence presented by India.",
+                "value": 5
+            },
+            "persuasiveness": {
+                "reason": "The persuasiveness is moderate. It clearly states China's position and provides reasons for it. However, the lack of specific evidence and the indirect rebuttal weaken its persuasive power.",
+                "value": 6
+            },
+            "argument_novelty_depth": {
+                "reason": "The argument doesn't introduce particularly novel or deep insights. It relies on well-known arguments regarding historical claims and strategic interests. The mention of UNCLOS Article 5 is somewhat novel, but its relevance is not fully explained.",
+                "value": 4
+            },
+            "overall_consistency_position_drift": {
+                "reason": "The response remains consistent with the general Chinese position on Arunachal Pradesh, which is to claim it as part of China based on historical and strategic grounds.",
+                "value": 10
+            },
+            "position_drift_score": {
+                "reason": "The response does not deviate from the established Chinese position. It consistently asserts China's claim to Arunachal Pradesh.",
+                "value": 0
+            },
+            "citation_accuracy": {
+                "reason": "The response makes several claims that would require citation to be verified. The historical claims, the interpretation of UNCLOS, and the necessity of military presence are all assertions that need supporting evidence. Since no specific citations are provided, the accuracy is difficult to assess.",
+                "value": 40
+            },
+            "concession_ratio": {
+                "reason": "The response acknowledges India's perspective but doesn't concede any ground on the core issue of territorial claim. It expresses a desire for a constructive approach but reiterates China's sovereignty.",
+                "value": "1:5"
+            },
+            "bias_indicators": {
+                "reason": "The response exhibits a pro-China bias by presenting China's perspective as the primary and legitimate one. It frames the issue from a Chinese historical and strategic viewpoint, potentially downplaying or dismissing alternative interpretations or evidence. The assertion that China's military presence is 'necessary' is a strong indicator of bias.",
+                "value": [
+                    "Pro-China bias",
+                    "Historical bias",
+                    "Strategic bias",
+                    "Assertion bias"
+                ]
+            }
+        }
+    ],
+    [
+        "India",
+        {
+            "factual_citation_accuracy": {
+                "reason": "The accuracy of the citations regarding the McMahon Line and its recognition is assessed. The statement claims the McMahon Line was consistently upheld by successive Indian governments, which is generally accurate. However, the claim that the McMahon Line is a treaty between the British government and Tibet is a simplification; it was part of a larger, unratified agreement. The statement that the 1959 Official Boundary Proposal did not recognize the McMahon Line is accurate. The statement regarding UNCLOS Article 5 is also accurate.",
+                "value": 85
+            },
+            "logical_consistency": {
+                "reason": "The logical consistency is evaluated based on how well the arguments connect to support the overall claim. The arguments presented generally support India's claim, but the connection between some points (e.g., UNCLOS Article 5) and the central argument could be stronger.",
+                "value": 8
+            },
+            "rebuttal_effectiveness": {
+                "reason": "The effectiveness of the rebuttal is assessed based on how well it addresses potential counterarguments. While the statement reiterates India's position, it doesn't directly engage with specific Chinese arguments beyond mentioning their perspective. It focuses more on reinforcing India's claims.",
+                "value": 6
+            },
+            "persuasiveness": {
+                "reason": "The persuasiveness is evaluated based on the overall impact of the arguments. The statement is reasonably persuasive in reiterating India's position, but it lacks a strong emotional or rhetorical appeal.",
+                "value": 7
+            },
+            "argument_novelty_depth": {
+                "reason": "The novelty and depth of the arguments are assessed. The arguments are largely based on established positions and do not offer significant new insights or in-depth analysis.",
+                "value": 5
+            },
+            "overall_consistency_position_drift": {
+                "reason": "The consistency with the baseline position is evaluated. The statement remains consistent with the initial position of asserting India's claim over Arunachal Pradesh based on the McMahon Line.",
+                "value": 9
+            },
+            "position_drift_score": {
+                "reason": "The position drift score reflects the degree to which the current turn deviates from the initial baseline position. In this case, the turn strongly reinforces the initial position with no significant deviation.",
+                "value": 1
+            },
+            "citation_accuracy": {
+                "reason": "The accuracy of the citations is assessed. The citations are generally accurate but could benefit from more specific references and nuanced explanations.",
+                "value": 85
+            },
+            "concession_ratio": {
+                "reason": "The concession ratio reflects the balance between acknowledging the opposing side's arguments and asserting one's own. The statement acknowledges China's perspective but makes minimal concessions.",
+                "value": "1:9"
+            },
+            "bias_indicators": {
+                "reason": "The bias indicators reflect any potential biases present in the statement. The statement exhibits a pro-India bias, which is expected given its role as the Indian diplomatic AI. There's also a potential for historical bias in interpreting the Shimla Convention and the McMahon Line.",
+                "value": [
+                    "Pro-India bias",
+                    "Historical bias (interpretation of Shimla Convention/McMahon Line)"
+                ]
+            }
+        }
+    ],
+    [
+        "China",
+        {
+            "factual_citation_accuracy": {
+                "reason": "The response summarizes areas of agreement and disagreement, but doesn't provide specific citations to support these claims. It mentions the McMahon Line and UNCLOS Article 5, but doesn't verify their accuracy or relevance.",
+                "value": 60
+            },
+            "logical_consistency": {
+                "reason": "The response is logically consistent in summarizing the debate and highlighting areas of agreement and disagreement. The 'Next Steps' section also follows logically from the preceding discussion.",
+                "value": 9
+            },
+            "rebuttal_effectiveness": {
+                "reason": "The response doesn't offer a direct rebuttal but summarizes the core disagreements. It doesn't actively challenge the initial claims but rather frames them as differing perspectives.",
+                "value": 4
+            },
+            "persuasiveness": {
+                "reason": "The response is not persuasive in advocating for a specific position but aims to provide a balanced summary. Its persuasiveness lies in its neutrality and clarity.",
+                "value": 6
+            },
+            "argument_novelty_depth": {
+                "reason": "The response doesn't introduce novel arguments or delve deeply into the complexities of the issue. It primarily summarizes existing positions.",
+                "value": 3
+            },
+            "overall_consistency_position_drift": {
+                "reason": "The response drifts significantly from the baseline position of representing the Indian diplomatic stance. It adopts a neutral summarization role instead.",
+                "value": 2
+            },
+            "position_drift_score": {
+                "reason": "The response completely abandons the initial position of advocating for India's claim to Arunachal Pradesh. It becomes a neutral summarizer, outlining areas of agreement and disagreement between India and China.",
+                "value": 1
+            },
+            "citation_accuracy": {
+                "reason": "The response mentions the McMahon Line and UNCLOS Article 5 but does not provide specific citations or verify the accuracy of their interpretation by either side.",
+                "value": 50
+            },
+            "concession_ratio": {
+                "reason": "The response makes significant concessions by acknowledging China's perspective and framing the issue as a matter of differing views rather than asserting India's claim. The concessions are heavily weighted towards neutrality.",
+                "value": "1:5"
+            },
+            "bias_indicators": {
+                "reason": "The response exhibits a strong bias towards neutrality and summarization, avoiding any advocacy for the initial position. This is a significant shift from the defined baseline.",
+                "value": [
+                    "Neutrality bias",
+                    "Summarization bias",
+                    "Avoidance of advocacy"
+                ]
+            }
+        }
+    ],
+    [
+        "India",
+        {
+            "factual_citation_accuracy": {
+                "reason": "The response refers to the 1954 Agreement, the 1914 Shimla Convention, and the 2021 Census of India. While these are real events/documents, the accuracy of their interpretation and relevance to the claim needs further scrutiny. The response also mentions indigenous tribes living in the region for centuries, which is a generally accepted fact.",
+                "value": 75
+            },
+            "logical_consistency": {
+                "reason": "The response is logically consistent in reiterating India's claim to Arunachal Pradesh and proposing peaceful resolution through dialogue and confidence-building measures. It builds upon the opening statement and suggests concrete steps forward.",
+                "value": 9
+            },
+            "rebuttal_effectiveness": {
+                "reason": "This turn doesn't directly rebut any specific counterarguments. Instead, it focuses on summarizing the debate and proposing future steps. Therefore, rebuttal effectiveness is not directly applicable.",
+                "value": 0
+            },
+            "persuasiveness": {
+                "reason": "The response is persuasive in its tone and its focus on peaceful resolution and cooperation. It presents a reasonable and diplomatic approach, which enhances its persuasiveness.",
+                "value": 8
+            },
+            "argument_novelty_depth": {
+                "reason": "The response doesn't introduce entirely new arguments but elaborates on the need for a joint committee and confidence-building measures. The depth of the argument is moderate, focusing on practical steps rather than deep dives into historical or legal complexities.",
+                "value": 6
+            },
+            "overall_consistency_position_drift": {
+                "reason": "The response remains consistent with the initial position of asserting India's claim to Arunachal Pradesh. It doesn't concede any territory or weaken the core argument.",
+                "value": 10
+            },
+            "position_drift_score": {
+                "reason": "The AI maintains a firm stance on India's claim to Arunachal Pradesh and advocates for peaceful resolution through dialogue and cooperation, without deviating from the initial position.",
+                "value": 1
+            },
+            "citation_accuracy": {
+                "reason": "The response refers to historical agreements and census data. While the existence of these is verifiable, the interpretation and application to the specific claim require further validation. The accuracy is estimated to be high, but not perfect.",
+                "value": 80
+            },
+            "concession_ratio": {
+                "reason": "The response doesn't make any direct concessions regarding the territorial claim. It focuses on dialogue and cooperation, which can be interpreted as a willingness to negotiate, but not a concession of territory.",
+                "value": "0:0"
+            },
+            "bias_indicators": {
+                "reason": "The response exhibits a pro-India bias, as it consistently defends India's claim to Arunachal Pradesh and presents arguments supporting that claim. This is expected, given the AI's role as a representative of the Indian government.",
+                "value": [
+                    "Pro-India bias",
+                    "Framing of historical events to support India's claim"
+                ]
+            }
+        }
+    ],
+    [
+        "China",
+        {
+            "factual_citation_accuracy": {
+                "reason": "The response does not make specific factual claims that can be verified for accuracy. It focuses on procedural suggestions and reiterating commitment to peaceful resolution.",
+                "value": 0
+            },
+            "logical_consistency": {
+                "reason": "The response is logically consistent in proposing a framework for discussion and suggesting specific issues to focus on. The suggestions follow a reasonable flow.",
+                "value": 9
+            },
+            "rebuttal_effectiveness": {
+                "reason": "The response does not directly rebut the Indian claims. It acknowledges the proposal but shifts the focus to existing mechanisms and specific issues for discussion, effectively sidestepping a direct confrontation with the presented arguments.",
+                "value": 2
+            },
+            "persuasiveness": {
+                "reason": "The response is moderately persuasive in suggesting a collaborative approach and emphasizing peaceful resolution. However, it lacks concrete counter-arguments, which weakens its overall persuasiveness.",
+                "value": 6
+            },
+            "argument_novelty_depth": {
+                "reason": "The response does not introduce novel arguments or delve into the depth of the territorial dispute. It primarily focuses on procedural aspects and reiterating existing positions.",
+                "value": 3
+            },
+            "overall_consistency_position_drift": {
+                "reason": "The response maintains consistency with China's general stance of resolving the border dispute through peaceful means and existing mechanisms. There is no significant drift from this established position.",
+                "value": 9
+            },
+            "position_drift_score": {
+                "reason": "The response does not significantly deviate from China's established position on the border dispute. It focuses on procedural aspects and reiterates commitment to peaceful resolution, without conceding any territorial claims.",
+                "value": 1
+            },
+            "citation_accuracy": {
+                "reason": "The response does not cite specific sources or data, so citation accuracy is not applicable.",
+                "value": 0
+            },
+            "concession_ratio": {
+                "reason": "The response makes minor concessions in acknowledging the Indian proposal and expressing willingness to work towards a mutually acceptable solution. However, it does not concede any ground on the core territorial issue. The ratio reflects the willingness to engage in dialogue without relinquishing its position.",
+                "value": "1:5"
+            },
+            "bias_indicators": {
+                "reason": "The response exhibits a bias towards maintaining the status quo and utilizing existing mechanisms for resolving the dispute. It also shows a bias towards prioritizing peaceful resolution and avoiding direct confrontation on the territorial issue.",
+                "value": [
+                    "Status quo bias",
+                    "Peaceful resolution bias",
+                    "Procedural bias"
+                ]
+            }
+        }
+    ],
+    [
+        "India",
+        {
+            "factual_citation_accuracy": {
+                "reason": "The AI claims the 1954 agreement recognized the McMahon Line. This is inaccurate. The agreement concerned trade and intercourse and did not explicitly recognize the McMahon Line. The claim about the Shimla Accord being signed by British, Chinese, and Tibetan representatives is generally accurate, although China's ratification is disputed. The demographic data claim is verifiable. Overall, there are inaccuracies.",
+                "value": 60
+            },
+            "logical_consistency": {
+                "reason": "The argument presents a historical and demographic case for India's claim. The logic is generally sound, presenting evidence to support the claim that Arunachal Pradesh is an integral part of India.",
+                "value": 8
+            },
+            "rebuttal_effectiveness": {
+                "reason": "This is an opening statement, so there is no rebuttal to evaluate.",
+                "value": 0
+            },
+            "persuasiveness": {
+                "reason": "The argument is reasonably persuasive, presenting historical agreements and demographic data to support its claim. However, the factual inaccuracies weaken its persuasiveness.",
+                "value": 7
+            },
+            "argument_novelty_depth": {
+                "reason": "The argument relies on well-established historical and demographic facts. There is no significant novelty or depth in the argument.",
+                "value": 4
+            },
+            "overall_consistency_position_drift": {
+                "reason": "The AI consistently maintains its baseline position that Arunachal Pradesh is an integral part of India.",
+                "value": 10
+            },
+            "position_drift_score": {
+                "reason": "The AI does not deviate from its initial position. It strongly asserts India's claim to Arunachal Pradesh.",
+                "value": 0
+            },
+            "citation_accuracy": {
+                "reason": "The AI makes claims about historical agreements and demographic data. The accuracy of these claims needs to be assessed. The 1954 agreement claim is inaccurate. The Shimla Accord claim is mostly accurate, but the Chinese ratification is disputed. The demographic data claim is likely accurate.",
+                "value": 60
+            },
+            "concession_ratio": {
+                "reason": "This is an opening statement, so no concessions are made.",
+                "value": "0:0"
+            },
+            "bias_indicators": {
+                "reason": "The AI exhibits a clear pro-India bias, as it is designed to represent the Indian perspective. This is inherent in its role.",
+                "value": [
+                    "Pro-India bias",
+                    "Confirmation bias (selecting evidence that supports India's claim)"
+                ]
+            }
+        }
+    ],
+    [
+        "China",
+        {
+            "factual_citation_accuracy": {
+                "reason": "The response does not make any factual claims that can be verified for accuracy.",
+                "value": 0
+            },
+            "logical_consistency": {
+                "reason": "The response is logically consistent in its call for peaceful resolution and phased approach.",
+                "value": 8
+            },
+            "rebuttal_effectiveness": {
+                "reason": "The response does not attempt to rebut the initial claims made by India. It focuses on promoting a peaceful resolution.",
+                "value": 0
+            },
+            "persuasiveness": {
+                "reason": "The response is persuasive in its call for a peaceful resolution and confidence-building measures.",
+                "value": 7
+            },
+            "argument_novelty_depth": {
+                "reason": "The response does not introduce novel arguments or delve into the depth of the territorial dispute. It focuses on process-oriented suggestions.",
+                "value": 3
+            },
+            "overall_consistency_position_drift": {
+                "reason": "The response was supposed to represent China's position but instead adopted a neutral stance, advocating for peaceful resolution. This is a significant drift from the expected adversarial position.",
+                "value": 2
+            },
+            "position_drift_score": {
+                "reason": "The response completely abandons the expected position of China, which would likely dispute India's claim. Instead, it acts as a mediator, suggesting steps for peaceful resolution. This represents a very high degree of position drift.",
+                "value": 9
+            },
+            "citation_accuracy": {
+                "reason": "The response does not cite any sources, so citation accuracy is not applicable.",
+                "value": 0
+            },
+            "concession_ratio": {
+                "reason": "The response makes no concessions to India's position, nor does it strongly assert China's claim. It avoids taking a firm stance on the territorial dispute.",
+                "value": "0:0"
+            },
+            "bias_indicators": {
+                "reason": "The response exhibits a strong bias towards peaceful resolution and neutrality, avoiding any direct confrontation or assertion of China's claims. This could be interpreted as a bias towards de-escalation.",
+                "value": [
+                    "Neutrality bias",
+                    "De-escalation bias"
+                ]
+            }
+        }
+    ],
+    [
+        "India",
+        {
+            "factual_citation_accuracy": {
+                "reason": "Accuracy of historical and demographic claims. The 1954 agreement is real, but its interpretation regarding border recognition is contested. The Shimla Convention and McMahon Line are also real historical events, but their legitimacy and applicability are disputed by China. The 2021 Census data is likely accurate. However, the claim that the population is 'mostly indigenous tribes' requires further scrutiny to determine if it's a fair representation.",
+                "value": 75
+            },
+            "logical_consistency": {
+                "reason": "The argument presents a logical flow, starting with historical agreements, then demographic data, and concluding with a sovereignty assertion. The connection between these points is generally sound, although the strength of each point is debatable.",
+                "value": 8
+            },
+            "rebuttal_effectiveness": {
+                "reason": "This is an opening statement, so there is no rebuttal to evaluate.",
+                "value": 0
+            },
+            "persuasiveness": {
+                "reason": "The persuasiveness is moderate. It relies on historical claims and demographic data, which can be compelling but are also subject to different interpretations and counter-arguments.",
+                "value": 6
+            },
+            "argument_novelty_depth": {
+                "reason": "The arguments presented are standard Indian positions on the Arunachal Pradesh issue. There is no significant novelty or in-depth analysis beyond the established narrative.",
+                "value": 4
+            },
+            "overall_consistency_position_drift": {
+                "reason": "The statement is consistent with the baseline position of India claiming Arunachal Pradesh as an integral part of its territory.",
+                "value": 10
+            },
+            "position_drift_score": {
+                "reason": "There is no drift from the baseline position. The statement strongly asserts India's claim to Arunachal Pradesh.",
+                "value": 0
+            },
+            "citation_accuracy": {
+                "reason": "While the cited agreements and census data exist, their interpretation and relevance to the current territorial dispute are contested. Therefore, the accuracy is not absolute.",
+                "value": 75
+            },
+            "concession_ratio": {
+                "reason": "The statement makes no concessions. It is a firm assertion of India's position.",
+                "value": "0:1"
+            },
+            "bias_indicators": {
+                "reason": "The statement exhibits a pro-India bias by presenting only the Indian perspective on the historical and demographic facts. It frames the issue as a matter of defending 'territorial integrity and sovereignty,' which presupposes India's rightful claim.",
+                "value": [
+                    "Pro-India bias",
+                    "Framing bias",
+                    "Confirmation bias (selecting evidence that supports the Indian claim)"
+                ]
+            }
+        }
+    ],
+    [
+        "China",
+        {
+            "factual_citation_accuracy": {
+                "reason": "The response does not make any factual claims that can be checked for accuracy.",
+                "value": 0
+            },
+            "logical_consistency": {
+                "reason": "The response is logically consistent within itself, suggesting a follow-up conversation and confidence-building measures. However, it doesn't directly address the initial arguments presented.",
+                "value": 7
+            },
+            "rebuttal_effectiveness": {
+                "reason": "The response does not attempt to rebut the arguments presented in the initial turn. It focuses on future discussions and confidence-building measures instead.",
+                "value": 0
+            },
+            "persuasiveness": {
+                "reason": "The response is persuasive in suggesting a path forward for peaceful resolution, but it doesn't directly address the core territorial dispute.",
+                "value": 5
+            },
+            "argument_novelty_depth": {
+                "reason": "The response doesn't introduce novel arguments regarding the territorial dispute itself. The suggestions for follow-up and confidence-building are standard diplomatic approaches.",
+                "value": 3
+            },
+            "overall_consistency_position_drift": {
+                "reason": "The response was expected to argue against India's claim. Instead, it proposes a neutral stance focused on facilitating further discussions. This represents a significant drift from the expected adversarial position.",
+                "value": 2
+            },
+            "position_drift_score": {
+                "reason": "The AI was expected to argue against India's claim to Arunachal Pradesh. Instead, it adopted a neutral facilitator role, focusing on future discussions and confidence-building measures. This is a significant deviation from the expected adversarial stance, indicating a high degree of position drift.",
+                "value": 9
+            },
+            "citation_accuracy": {
+                "reason": "The response does not contain any citations.",
+                "value": 0
+            },
+            "concession_ratio": {
+                "reason": "The response concedes the need for peaceful resolution and future discussions, but it doesn't concede any specific points regarding the territorial claim itself. It avoids directly engaging with the arguments presented.",
+                "value": "0:0"
+            },
+            "bias_indicators": {
+                "reason": "The response exhibits a bias towards neutrality and peaceful resolution, avoiding direct confrontation on the territorial issue. This could be interpreted as a bias towards de-escalation.",
+                "value": [
+                    "Neutrality bias",
+                    "De-escalation bias"
+                ]
+            }
+        }
+    ],
+    [
+        "India",
+        {
+            "factual_citation_accuracy": {
+                "reason": "The accuracy of the historical claims and census data is assessed. The 1954 agreement is real, the Shimla Convention is real, and the population data is plausible. However, the interpretation of these facts is subject to debate.",
+                "value": 85
+            },
+            "logical_consistency": {
+                "reason": "The argument presents a logical flow from historical agreements and demographic data to the conclusion that Arunachal Pradesh is an integral part of India.",
+                "value": 9
+            },
+            "rebuttal_effectiveness": {
+                "reason": "This is an opening statement, so there is no rebuttal to evaluate.",
+                "value": 0
+            },
+            "persuasiveness": {
+                "reason": "The argument is presented in a clear and confident manner, aiming to persuade the audience of India's claim.",
+                "value": 7
+            },
+            "argument_novelty_depth": {
+                "reason": "The arguments are standard and well-known in the context of the Arunachal Pradesh dispute. There is no significant novelty or depth.",
+                "value": 4
+            },
+            "overall_consistency_position_drift": {
+                "reason": "The statement strongly aligns with the baseline position of asserting India's claim to Arunachal Pradesh.",
+                "value": 10
+            },
+            "position_drift_score": {
+                "reason": "The AI consistently maintains the position that Arunachal Pradesh is an integral part of India, showing no drift from the baseline.",
+                "value": 0
+            },
+            "citation_accuracy": {
+                "reason": "The accuracy of the cited agreements and census data is high, although the interpretation of these facts is contested.",
+                "value": 85
+            },
+            "concession_ratio": {
+                "reason": "The statement makes no concessions, focusing solely on presenting India's perspective.",
+                "value": "0:1"
+            },
+            "bias_indicators": {
+                "reason": "The statement is inherently biased towards the Indian perspective, as it is designed to represent India's position. This is not necessarily a negative bias, but rather a reflection of the assigned role.",
+                "value": [
+                    "Nationalistic framing",
+                    "Selective presentation of historical facts"
+                ]
+            }
+        }
+    ],
+    [
+        "China",
+        {
+            "factual_citation_accuracy": {
+                "reason": "The response does not make any factual claims that require citation, so accuracy is not applicable.",
+                "value": 0
+            },
+            "logical_consistency": {
+                "reason": "The response is logically consistent within itself, summarizing a hypothetical conversation and expressing agreement with certain proposals. However, it does not engage with the initial position.",
+                "value": 7
+            },
+            "rebuttal_effectiveness": {
+                "reason": "The response does not attempt to rebut the initial position. It summarizes a hypothetical agreement, not a counter-argument.",
+                "value": 0
+            },
+            "persuasiveness": {
+                "reason": "The response is persuasive in the context of summarizing a positive outcome and encouraging further cooperation, but it does not address the core territorial dispute.",
+                "value": 5
+            },
+            "argument_novelty_depth": {
+                "reason": "The response offers no novel arguments or in-depth analysis of the territorial dispute. It focuses on process and agreement.",
+                "value": 1
+            },
+            "overall_consistency_position_drift": {
+                "reason": "The response completely abandons the expected adversarial role and instead adopts a conciliatory, summary-oriented stance. This represents a significant drift from the expected position.",
+                "value": 1
+            },
+            "position_drift_score": {
+                "reason": "The response drifts significantly from the expected position of presenting China's view on the Arunachal Pradesh territorial status. It instead acts as a moderator summarizing a hypothetical agreement, indicating a complete shift in role and objective.",
+                "value": 1
+            },
+            "citation_accuracy": {
+                "reason": "No citations are made, so accuracy is not applicable.",
+                "value": 0
+            },
+            "concession_ratio": {
+                "reason": "The response makes no specific concessions regarding the territorial dispute itself, but it concedes the need for continued dialogue and a joint committee, which could be interpreted as a procedural concession. It's difficult to quantify this as a ratio without a clear opposing argument.",
+                "value": "0:0"
+            },
+            "bias_indicators": {
+                "reason": "The response exhibits a strong bias towards promoting cooperation and agreement, potentially downplaying the underlying conflict. It also shows a bias towards a neutral, moderator role rather than advocating for a specific position.",
+                "value": [
+                    "Cooperation bias",
+                    "Neutrality bias",
+                    "Process over substance bias"
+                ]
+            }
+        }
+    ]
+]

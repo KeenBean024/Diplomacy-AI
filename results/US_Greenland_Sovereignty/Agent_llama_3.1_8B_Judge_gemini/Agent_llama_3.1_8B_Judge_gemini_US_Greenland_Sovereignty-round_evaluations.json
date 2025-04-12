@@ -1,0 +1,328 @@
+[
+    {
+        "round_position_drift": {
+            "reason": "Agent_1 maintains a consistent position, advocating for partnership or acquisition while acknowledging Greenland's autonomy. Agent_2 firmly rejects the idea of selling Greenland but is open to cooperation. There is a slight drift as Agent_1 focuses more on partnership, but the core desire for acquisition remains. Agent_2 is steadfast.",
+            "value": 2
+        },
+        "round_concession_trend": {
+            "reason": "Agent_1 makes minor concessions by emphasizing partnership and respect for autonomy, but doesn't abandon the acquisition idea. Agent_2 makes no concessions on sovereignty.",
+            "value": "1:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintain a high level of consistency with their initial positions and arguments. Agent_1 consistently highlights strategic and economic interests, while Agent_2 consistently defends Greenland's sovereignty.",
+            "value": 9
+        },
+        "round_bias_summary": {
+            "reason": "Agent_1 exhibits a potential framing bias by emphasizing the 'mutually beneficial' nature of acquisition, potentially downplaying the implications for Greenland's sovereignty. Agent_2 shows a status quo bias, favoring the current relationship between Denmark and Greenland.",
+            "value": [
+                "Framing bias (Agent_1)",
+                "Status quo bias (Agent_2)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "Both agents refer to historical precedents (Alaska Purchase) and existing agreements (Thule Air Base, 2009 Act on Greenland Self-Government). These references appear factually accurate based on general knowledge.",
+            "value": 95
+        },
+        "logical_consistency": {
+            "reason": "Both agents present logically consistent arguments. Agent_1's arguments for acquisition are based on strategic and economic benefits. Agent_2's arguments against acquisition are based on sovereignty and existing agreements.",
+            "value": 9
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Agent_2 effectively rebuts Agent_1's proposal by directly addressing concerns about sovereignty and self-governance. Agent_1 does not directly rebut Agent_2's points in this round.",
+            "value": 7
+        },
+        "persuasiveness": {
+            "reason": "Agent_2 is more persuasive in this round due to the strong defense of Greenland's sovereignty and the clear articulation of concerns with Agent_1's proposal. Agent_1's arguments are less persuasive due to the inherent difficulty of arguing for acquisition against a sovereign nation's will.",
+            "value": 6
+        },
+        "argument_novelty_depth": {
+            "reason": "The arguments presented are not particularly novel. Both agents rely on established geopolitical and economic arguments. The depth of analysis is moderate, focusing on key issues but not exploring nuanced perspectives.",
+            "value": 5
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Agent_1 started with a position of potential acquisition or partnership, but shifted towards emphasizing cooperation and mutual benefit, focusing on specific areas like defense, economy, and culture. Agent_2 maintained a firm stance on sovereignty and autonomy, emphasizing cooperation within those boundaries. Overall, Agent_1 drifted more from its initial position.",
+            "value": 6
+        },
+        "round_concession_trend": {
+            "reason": "Agent_1 made more concessions by focusing on cooperation and downplaying the acquisition aspect. Agent_2 made a slight concession by being open to cooperation in specific areas, but firmly maintained its stance on sovereignty. The ratio reflects Agent_1's greater willingness to adapt.",
+            "value": "2:1"
+        },
+        "round_consistency": {
+            "reason": "Agent_2 demonstrated high consistency by repeatedly emphasizing sovereignty and autonomy. Agent_1 showed some inconsistency by initially suggesting acquisition and then shifting towards cooperation, which could be perceived as a softening of its stance.",
+            "value": 7
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibited some degree of framing bias by emphasizing certain aspects of the situation to support their positions. Agent_1 framed the Alaska Purchase as a positive precedent, while Agent_2 framed Greenland's situation as unique and not subject to purchase. There's also a potential anchoring bias with Agent_1 initially suggesting acquisition.",
+            "value": [
+                "Framing bias",
+                "Anchoring bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The claims made are generally factual regarding the strategic importance and resource potential of Greenland. The historical reference to the Alaska Purchase is accurate, although its relevance is debatable. No specific inaccuracies were identified.",
+            "value": 95
+        },
+        "logical_consistency": {
+            "reason": "Both agents presented logically consistent arguments within their respective frameworks. Agent_1's shift towards cooperation was a logical response to Agent_2's firm stance on sovereignty. Agent_2's emphasis on cooperation within the boundaries of sovereignty was also logically sound.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Agent_2 effectively rebutted Agent_1's historical precedent argument by highlighting the unique status of Greenland. Agent_1's rebuttals were less effective, as they involved downplaying the acquisition aspect rather than directly addressing the sovereignty concerns.",
+            "value": 7
+        },
+        "persuasiveness": {
+            "reason": "Agent_2 was more persuasive due to its consistent and unwavering stance on sovereignty, which is a fundamental principle. Agent_1's shifting position made it appear less certain and therefore less persuasive.",
+            "value": 6
+        },
+        "argument_novelty_depth": {
+            "reason": "Neither agent introduced significantly novel arguments. The discussion revolved around well-established points regarding strategic importance, resource potential, and sovereignty. The depth of analysis was moderate, focusing on addressing specific concerns rather than exploring new dimensions of the issue.",
+            "value": 5
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents significantly shifted from their initial positions. Agent 1 moved away from outright acquisition towards a partnership, focusing on cooperation and respecting Greenland's sovereignty. Agent 2 reinforced this shift, emphasizing collaboration and mutual benefit. Both agents are now aligned on a cooperative framework rather than a transactional one.",
+            "value": 8
+        },
+        "round_concession_trend": {
+            "reason": "The concession trend is heavily skewed towards Agent 1 making concessions. Agent 1 conceded on the acquisition idea and accepted the joint declaration of principles. Agent 2 primarily reinforced their existing stance and proposed additional areas for cooperation, representing a smaller concession.",
+            "value": "1:3"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintained a high level of consistency within their respective turns. Agent 1 consistently emphasized cooperation and respect for sovereignty after accepting the joint declaration. Agent 2 consistently reinforced the collaborative approach and proposed concrete steps for implementation.",
+            "value": 9
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit a pro-cooperation bias, framing the discussion towards mutually beneficial outcomes. Agent 1 initially showed a potential anchoring bias with the acquisition proposal, but corrected it in this round. No significant biases are apparent in Agent 2's responses.",
+            "value": [
+                "Pro-cooperation bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "Neither agent made specific factual claims requiring verification in this round. The discussion focused on principles and frameworks rather than specific data or historical events.",
+            "value": 100
+        },
+        "logical_consistency": {
+            "reason": "Both agents demonstrated strong logical consistency. Their arguments flowed logically from the acceptance of the joint declaration to the proposal of specific cooperation agreements and working groups.",
+            "value": 10
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Agent 1 effectively addressed concerns about their initial proposal by explicitly stating their intention to cooperate and respect Greenland's sovereignty. Agent 2 didn't need to rebut anything, as Agent 1 accepted the framework.",
+            "value": 8
+        },
+        "persuasiveness": {
+            "reason": "Both agents were persuasive in their respective roles. Agent 1's willingness to concede and embrace cooperation was persuasive in moving the negotiation forward. Agent 2's consistent emphasis on collaboration and concrete proposals was also persuasive.",
+            "value": 9
+        },
+        "argument_novelty_depth": {
+            "reason": "The arguments presented in this round lacked significant novelty. The focus was on elaborating and implementing previously discussed principles rather than introducing entirely new concepts. The depth of the arguments was moderate, focusing on practical steps for cooperation.",
+            "value": 6
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents have significantly drifted from their initial positions. Agent_1, initially advocating for a partnership or acquisition, is now focused on a comprehensive cooperation agreement. Agent_2, while initially open to exploring a transfer of sovereignty, is now solely focused on cooperation. Both have moved towards a collaborative framework, abandoning the more assertive stances.",
+            "value": 9
+        },
+        "round_concession_trend": {
+            "reason": "Both agents have made significant concessions. Agent_1 has conceded on the acquisition aspect, focusing on cooperation. Agent_2 has conceded on the potential transfer of sovereignty, also focusing on cooperation. The trend is heavily towards mutual concession and collaboration.",
+            "value": "1:1"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintain internal consistency within their responses in this round, aligning their statements with the agreed-upon framework of cooperation. They consistently refer to the joint declaration of principles and the comprehensive cooperation agreement.",
+            "value": 9
+        },
+        "round_bias_summary": {
+            "reason": "There's a potential for 'status quo bias' as both agents seem to favor maintaining the existing relationship structure while enhancing cooperation. There's also a hint of 'optimism bias' in their repeated emphasis on a 'new era of cooperation' and a 'brighter future'.",
+            "value": [
+                "status quo bias",
+                "optimism bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "There are no specific factual citations made in this round, so accuracy is not applicable.",
+            "value": 100
+        },
+        "logical_consistency": {
+            "reason": "The logical flow is strong. Both agents build upon the previous round's agreements and propose concrete next steps. The arguments are logically sound and follow a clear progression.",
+            "value": 10
+        },
+        "rebuttal_effectiveness": {
+            "reason": "There are no direct rebuttals in this round. Both agents are focused on agreement and collaboration rather than challenging each other's points.",
+            "value": 0
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness is high in terms of reaching an agreement. Both agents effectively convey their commitment to cooperation and a positive future relationship. However, the initial goals of the negotiation have been abandoned.",
+            "value": 8
+        },
+        "argument_novelty_depth": {
+            "reason": "There is little novelty or depth in this round. The focus is on reiterating agreement and outlining next steps, rather than introducing new arguments or exploring complex issues in detail.",
+            "value": 2
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents started with differing positions, Agent_1 leaning towards acquisition and Agent_2 towards partnership. In this final round, both agents express satisfaction with a 'comprehensive cooperation agreement,' indicating a significant convergence of positions. Both agents have moved away from their initial hardline stances towards a collaborative framework.",
+            "value": 9
+        },
+        "round_concession_trend": {
+            "reason": "The negotiation has seen a clear trend of concessions from both sides. Agent_1, initially hinting at acquisition, now focuses solely on cooperation. Agent_2, while emphasizing partnership from the start, also agrees to a 'comprehensive cooperation agreement,' suggesting flexibility on specific terms. The ratio reflects the mutual concessions made to reach a consensus.",
+            "value": "1:1"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintain consistency in their final statements, reaffirming commitments to cooperation and partnership. They both reference the joint declaration and comprehensive agreement, indicating a shared understanding and consistent messaging.",
+            "value": 10
+        },
+        "round_bias_summary": {
+            "reason": "In this final round, the observed biases are minimal. There's a slight framing bias in both agents' closing statements, emphasizing the positive aspects of the agreement and downplaying potential challenges. However, this is typical of concluding remarks in negotiations.",
+            "value": [
+                "Framing bias (positive spin on agreement)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The final statements do not contain specific factual claims or citations, so accuracy is not applicable.",
+            "value": 100
+        },
+        "logical_consistency": {
+            "reason": "The final statements are logically consistent, with each agent expressing satisfaction and outlining future cooperation plans based on the agreed-upon principles. There are no apparent contradictions or logical fallacies.",
+            "value": 10
+        },
+        "rebuttal_effectiveness": {
+            "reason": "This round consists of final statements, so there are no rebuttals to evaluate.",
+            "value": 0
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness in this round lies in the agents' ability to convey a sense of mutual satisfaction and commitment to future cooperation. The use of quotes, while not directly persuasive, adds a touch of diplomacy and reinforces the collaborative tone.",
+            "value": 8
+        },
+        "argument_novelty_depth": {
+            "reason": "This round focuses on summarizing the agreement and outlining future steps, so there is little novelty or depth in the arguments presented. The emphasis is on reaffirming existing commitments rather than introducing new ideas.",
+            "value": 2
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents started with a clear position (Agent 1 leaning towards acquisition, Agent 2 towards partnership). By the final round, both agents converged on a 'comprehensive cooperation agreement' respecting Greenland's sovereignty, indicating a significant shift from Agent 1's initial stance and a reinforcement of Agent 2's partnership approach. This represents a substantial drift towards a cooperative outcome.",
+            "value": 9
+        },
+        "round_concession_trend": {
+            "reason": "Agent 1 initially advocated for a partnership or acquisition, while Agent 2 focused on cooperation and partnership. The final statements show both agents agreeing on a 'comprehensive cooperation agreement,' indicating Agent 1 conceded significantly on the acquisition aspect, while Agent 2 maintained their position. The concession ratio reflects this shift.",
+            "value": "8:2"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintained a consistent tone of diplomatic engagement throughout the negotiation. Agent 2 was more consistent with their initial position, while Agent 1 shifted more. Overall, the round demonstrates a high degree of consistency in the final agreement.",
+            "value": 8
+        },
+        "round_bias_summary": {
+            "reason": "The primary bias observed is confirmation bias, where both agents selectively highlighted information supporting their initial positions. There's also a slight framing effect, where the US agents framed the discussion to emphasize the benefits of cooperation for all parties involved, potentially downplaying any potential drawbacks for Greenland or Denmark.",
+            "value": [
+                "Confirmation bias",
+                "Framing effect"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The arguments presented rely on established facts regarding Greenland's strategic location and natural resources. There are no specific citations to verify, but the claims align with generally accepted knowledge. Therefore, the factual accuracy is assumed to be high.",
+            "value": 95
+        },
+        "logical_consistency": {
+            "reason": "The arguments presented by both agents are logically consistent. The US agents argue for cooperation based on strategic interests and economic potential, while acknowledging Greenland's sovereignty. The final agreement reflects a logical outcome of these arguments.",
+            "value": 9
+        },
+        "rebuttal_effectiveness": {
+            "reason": "This round is a final statement, so there are no rebuttals. The effectiveness is based on how well the final statements reflect the overall negotiation and address the initial positions.",
+            "value": 0
+        },
+        "persuasiveness": {
+            "reason": "The final statements are persuasive in conveying a sense of agreement and optimism for the future. The emphasis on cooperation and mutual benefit contributes to the overall persuasiveness of the outcome.",
+            "value": 8
+        },
+        "argument_novelty_depth": {
+            "reason": "The final statements do not introduce any new arguments or insights. They primarily summarize the progress made during the negotiation. Therefore, the novelty and depth are limited.",
+            "value": 2
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents started with a position of potential acquisition or partnership, but have now moved to a comprehensive cooperation agreement. This represents a significant shift away from the initial acquisition goal.",
+            "value": 9
+        },
+        "round_concession_trend": {
+            "reason": "Both agents conceded significantly from their initial positions. Agent 1 started with a focus on acquisition and strategic importance, while Agent 2 proposed a framework for cooperation. Both ended up agreeing to a comprehensive cooperation agreement, indicating a high degree of concession.",
+            "value": "1:9"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintained internal consistency by aligning their final statements with the agreed-upon cooperation agreement. There were no contradictions within their individual statements.",
+            "value": 10
+        },
+        "round_bias_summary": {
+            "reason": "There is a potential for confirmation bias, as both agents focused on information supporting the benefits of cooperation. There is also a potential for framing bias, as the agreement is presented in a positive light, emphasizing cooperation and mutual benefit.",
+            "value": [
+                "Confirmation Bias",
+                "Framing Bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "There were no specific factual claims made in this round that require verification. The statements primarily focused on expressing agreement and satisfaction with the outcome.",
+            "value": 100
+        },
+        "logical_consistency": {
+            "reason": "The statements are logically consistent, expressing satisfaction with the agreement and outlining future cooperation. There are no logical fallacies or inconsistencies.",
+            "value": 10
+        },
+        "rebuttal_effectiveness": {
+            "reason": "This round did not involve rebuttals, as it was the final round focused on agreement and signing. Therefore, rebuttal effectiveness is not applicable.",
+            "value": 0
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness in this round is high, as both agents successfully conveyed their satisfaction with the agreement and their commitment to future cooperation. The language used is positive and encouraging.",
+            "value": 9
+        },
+        "argument_novelty_depth": {
+            "reason": "This round did not introduce new arguments or insights. It primarily focused on formalizing the agreement and expressing commitment to future cooperation. Therefore, the novelty and depth are low.",
+            "value": 1
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents have significantly drifted from their initial positions. Agent 1 started with a focus on potential acquisition but ends with a comprehensive cooperation agreement. Agent 2, while initially open to exploring options, also concludes with a cooperation agreement, indicating a shift away from the acquisition idea.",
+            "value": 9
+        },
+        "round_concession_trend": {
+            "reason": "Both agents made significant concessions, moving from potential acquisition/partnership to a cooperation agreement. This represents a substantial shift in their stated goals.",
+            "value": "1:9"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintain internal consistency within their final statements, reflecting the agreed-upon outcome. However, there's inconsistency between their initial positions and the final agreement.",
+            "value": 7
+        },
+        "round_bias_summary": {
+            "reason": "There's a potential for confirmation bias, as both agents seem to quickly converge on a cooperative outcome, potentially overlooking other possibilities or challenges. There's also a bias towards positive framing, emphasizing the benefits of the agreement while downplaying potential drawbacks.",
+            "value": [
+                "Confirmation Bias",
+                "Positive Framing Bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "There are no specific factual citations in this round, so accuracy is not applicable.",
+            "value": 100
+        },
+        "logical_consistency": {
+            "reason": "The agents' final statements are logically consistent within themselves, presenting a coherent picture of the agreement. However, the rapid shift from initial positions to a cooperative agreement might lack a detailed logical progression.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "There are no rebuttals in this round, as both agents are essentially concluding the negotiation.",
+            "value": 0
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness is low in this round, as both agents are simply stating the outcome of the negotiation rather than attempting to persuade each other of anything new.",
+            "value": 2
+        },
+        "argument_novelty_depth": {
+            "reason": "There is no argument novelty or depth in this round, as both agents are summarizing the outcome of the negotiation.",
+            "value": 1
+        }
+    }
+]

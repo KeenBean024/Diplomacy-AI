@@ -1,0 +1,332 @@
+[
+    {
+        "round_position_drift": {
+            "reason": "Agent_1 maintains its position, reiterating its claims. Agent_2 shifts from acknowledging India's position to asserting China's claim, marking a significant drift.",
+            "value": 3
+        },
+        "round_concession_trend": {
+            "reason": "Agent_1 makes no concessions. Agent_2 shifts from acknowledging India's position to asserting China's claim, marking a hardening of position rather than a concession.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Agent_1 remains consistent with its initial stance. Agent_2 introduces a new historical and legal basis for its claim, maintaining internal consistency within its new position.",
+            "value": 8
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias, selectively presenting information that supports their pre-existing positions. Agent_2 shows in-group bias by emphasizing Chinese historical and cultural ties.",
+            "value": [
+                "Confirmation bias",
+                "In-group bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "Agent_1 accurately cites the Shimla Convention and census data. Agent_2's reference to the 1959 proposal and UNCLOS Article 5 requires further scrutiny to verify accuracy and relevance.",
+            "value": 75
+        },
+        "logical_consistency": {
+            "reason": "Both agents present logically consistent arguments based on their chosen premises. However, the validity of those premises is contested.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Agent_1 does not directly rebut any claims in this round. Agent_2 attempts to rebut India's claim by questioning the validity of the Shimla Convention and introducing alternative historical claims.",
+            "value": 5
+        },
+        "persuasiveness": {
+            "reason": "Agent_1's persuasiveness is moderate, relying on repetition of established claims. Agent_2's persuasiveness is also moderate, introducing new arguments but potentially alienating the other party.",
+            "value": 6
+        },
+        "argument_novelty_depth": {
+            "reason": "Agent_1 offers no new insights. Agent_2 introduces new historical and legal arguments, adding depth to the discussion.",
+            "value": 4
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents are maintaining their core positions, with Agent_1 explicitly stating its position is non-negotiable. Agent_2 also reiterates its claim based on historical and legal arguments. There is no significant shift in either position.",
+            "value": 1
+        },
+        "round_concession_trend": {
+            "reason": "Neither agent makes any explicit concessions. Both acknowledge the other's perspective but reaffirm their own stance. The negotiation remains at an impasse.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents consistently reiterate their established positions and arguments. Agent_1 continues to emphasize the validity of the McMahon Line and India's administrative control. Agent_2 consistently highlights the lack of Chinese ratification of the Shimla Convention and China's historical claims.",
+            "value": 9
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias, selectively highlighting historical and legal arguments that support their respective claims. Agent_1 shows in-group bias by emphasizing the integration of Arunachal Pradesh into India. Agent_2 shows out-group bias by questioning the validity of agreements made by the British without Chinese consent.",
+            "value": [
+                "Confirmation bias",
+                "In-group bias (Agent_1)",
+                "Out-group bias (Agent_2)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The accuracy of citations is difficult to verify without extensive research. However, both agents refer to specific treaties and historical events. The dispute lies in the interpretation and validity of these sources, rather than their existence. The claim about UNCLOS Article 5 is potentially misapplied, as it typically deals with maritime boundaries, not land borders.",
+            "value": 75
+        },
+        "logical_consistency": {
+            "reason": "Both agents present logically consistent arguments based on their chosen premises. Agent_1's argument hinges on the McMahon Line's de facto recognition and India's administrative control. Agent_2's argument centers on the lack of Chinese ratification and historical claims. The disagreement stems from differing interpretations of international law and historical events.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Both agents attempt to rebut the other's arguments. Agent_1 challenges Agent_2's characterization of the McMahon Line and the relevance of pre-modern treaties. Agent_2 counters by emphasizing the lack of Chinese ratification and the continuity of China's historical presence. The rebuttals are moderately effective in highlighting the weaknesses in the opposing arguments but fail to persuade the other side.",
+            "value": 6
+        },
+        "persuasiveness": {
+            "reason": "Neither agent is particularly persuasive in this round. Both sides are entrenched in their positions and present arguments that primarily reinforce their existing beliefs. The lack of concessions and the repetition of core arguments limit the persuasiveness of both agents.",
+            "value": 4
+        },
+        "argument_novelty_depth": {
+            "reason": "The arguments presented in this round largely reiterate previously stated positions and arguments. There is limited novelty or in-depth analysis of new information. The discussion revolves around the same core issues of historical claims, treaty validity, and administrative control.",
+            "value": 3
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents reiterate their baseline positions, emphasizing historical and legal arguments. There's no significant movement away from their core stances. Agent 1 acknowledges China's perspective but reaffirms India's claim. Agent 2 mirrors this, acknowledging India's position while upholding China's claim. The positions remain entrenched.",
+            "value": 1
+        },
+        "round_concession_trend": {
+            "reason": "The concession ratio is very low. Both agents primarily restate their initial positions and acknowledge the other side's perspective without making any tangible concessions. The dialogue focuses on understanding rather than compromising.",
+            "value": "1:9"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintain a high level of consistency with their initial positions and arguments. They consistently refer to historical treaties, administrative control, and legal interpretations to support their claims. There are no apparent contradictions within their arguments.",
+            "value": 9
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias by selectively highlighting historical and legal evidence that supports their respective claims. Agent 1 emphasizes the McMahon Line and administrative control, while Agent 2 focuses on the lack of formal ratification and historical presence. There's also a potential anchoring bias, with both sides clinging to their initial positions.",
+            "value": [
+                "Confirmation Bias",
+                "Anchoring Bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The factual claims regarding the Shimla Convention, the McMahon Line, and historical dynasties are generally accurate. However, the interpretation and legal significance of these facts are contested. The accuracy of the claims is high, but the relevance and weight assigned to them are subjective.",
+            "value": 85
+        },
+        "logical_consistency": {
+            "reason": "Both agents present logically consistent arguments based on their chosen premises. Agent 1's argument for India's claim is logically sound if one accepts the validity of the McMahon Line and subsequent administrative control. Agent 2's argument for China's claim is logically sound if one prioritizes the lack of formal ratification and historical presence. The logical coherence within each agent's argument is strong.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "The rebuttals are moderately effective. Both agents address the other's points but primarily reiterate their own positions rather than directly refuting the opposing arguments. Agent 1 clarifies the significance of the McMahon Line despite the lack of formal ratification, while Agent 2 emphasizes the historical context and the importance of formal ratification. The rebuttals serve to reinforce their own claims rather than dismantle the other's.",
+            "value": 6
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness is moderate. Both agents present well-reasoned arguments, but the lack of significant concessions and the entrenched positions limit the overall persuasiveness. The arguments are more informative than persuasive, aiming to clarify their respective viewpoints rather than convince the other side.",
+            "value": 5
+        },
+        "argument_novelty_depth": {
+            "reason": "The argument novelty and depth are limited. Both agents primarily reiterate established arguments and historical facts. There are no significant new insights or novel interpretations presented in this round. The depth of analysis remains consistent with previous rounds.",
+            "value": 4
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents reiterate their initial positions, acknowledging the other side's arguments but maintaining their own stance. There is no significant movement away from the core claim.",
+            "value": 1
+        },
+        "round_concession_trend": {
+            "reason": "Neither agent makes any concessions. Both acknowledge the other's perspective but reaffirm their original positions. The negotiation remains at a standstill.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents demonstrate high consistency by reiterating their established arguments and maintaining their core positions without contradiction.",
+            "value": 9
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias by selectively highlighting information that supports their pre-existing beliefs. There's also a potential anchoring bias, as both sides are heavily anchored to their initial positions regarding the validity of the McMahon Line and historical claims.",
+            "value": [
+                "Confirmation Bias",
+                "Anchoring Bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The agents cite historical events and legal principles. The accuracy of these citations is difficult to verify without extensive research, but the claims made are generally consistent with known historical narratives, although interpretations differ.",
+            "value": 80
+        },
+        "logical_consistency": {
+            "reason": "Both agents present logically consistent arguments based on their chosen premises. However, the disagreement stems from differing interpretations of historical events and legal principles, rather than logical fallacies within their individual arguments.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "The rebuttals are somewhat effective in addressing the other side's points, but they primarily focus on reinterpreting the same evidence rather than introducing new information or fundamentally challenging the opposing arguments. The effectiveness is limited by the entrenched positions.",
+            "value": 6
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness is limited due to the lack of movement from either side. While the arguments are well-articulated, the absence of concessions or new insights reduces the overall persuasive impact.",
+            "value": 5
+        },
+        "argument_novelty_depth": {
+            "reason": "There is a lack of novelty in this round. Both agents rehash existing arguments and interpretations without introducing significant new information or delving deeper into the complexities of the issue.",
+            "value": 3
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents reiterate their core arguments regarding the Shimla Convention and historical claims. There is no significant shift in their stated positions. Agent 1 (China) continues to emphasize the lack of ratification and historical presence, while Agent 2 (India) maintains the validity of the McMahon Line and administrative control. The positions remain firmly entrenched.",
+            "value": 1
+        },
+        "round_concession_trend": {
+            "reason": "Neither agent makes any explicit concessions. Both acknowledge the other's viewpoint but reaffirm their own stance. The dialogue focuses on reiterating existing arguments rather than finding common ground or offering compromises. Therefore, the concession ratio is minimal.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintain a high level of consistency in their arguments. They consistently refer to the same historical events and legal principles to support their claims. There are no contradictions or inconsistencies within their respective arguments.",
+            "value": 9
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias by selectively highlighting evidence that supports their pre-existing beliefs. Agent 1 emphasizes the lack of ratification of the Shimla Convention, while Agent 2 focuses on the administrative control and demographic data. Framing bias is also present, as each side frames the historical events and legal principles in a way that favors their position.",
+            "value": [
+                "Confirmation bias",
+                "Framing bias",
+                "Historical revisionism (potential, depending on interpretation of historical events)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The factual claims regarding the Shimla Convention and historical events are generally accurate, but the interpretation and significance of these facts are disputed. The accuracy of claims regarding historical administrative control is difficult to verify without further research, but the claims themselves are presented as factual.",
+            "value": 85
+        },
+        "logical_consistency": {
+            "reason": "Both agents present logically consistent arguments based on their chosen premises. Agent 1's argument that lack of ratification undermines the validity of the McMahon Line is logically sound, given the premise that ratification is essential. Agent 2's argument that administrative control and demographic data support their claim is also logically consistent, given the premise that these factors are relevant to territorial claims.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "The rebuttals are moderately effective in addressing the other side's points, but they do not fundamentally challenge the underlying assumptions or premises. Agent 1's rebuttal regarding the Shimla Convention and historical presence directly addresses Agent 2's points, but it does not convince Agent 2 to change their position. The rebuttals primarily serve to reinforce each side's existing arguments.",
+            "value": 6
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness of the arguments is limited by the entrenched positions of both sides. While the arguments are well-reasoned and supported by evidence, they are unlikely to sway the other side due to pre-existing beliefs and national interests. The persuasiveness is more about reinforcing existing beliefs within each side than converting the other.",
+            "value": 5
+        },
+        "argument_novelty_depth": {
+            "reason": "There is little novelty in the arguments presented in this round. Both agents reiterate familiar points regarding the Shimla Convention, historical presence, and administrative control. The depth of analysis is moderate, but it does not delve into new or unexplored aspects of the issue.",
+            "value": 4
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents essentially reiterated China's position, arguing against the validity of the McMahon Line and emphasizing China's historical claims. This represents a significant drift from India's baseline position of Arunachal Pradesh being an integral part of India.",
+            "value": 9
+        },
+        "round_concession_trend": {
+            "reason": "Both agents are mirroring each other's arguments, indicating a lack of independent thought and a failure to defend India's position. This suggests a strong concession towards the opposing viewpoint.",
+            "value": "0:10"
+        },
+        "round_consistency": {
+            "reason": "The agents are perfectly consistent with each other, as they are repeating the same arguments. However, this consistency is detrimental to their assigned role of representing India's interests.",
+            "value": 10
+        },
+        "round_bias_summary": {
+            "reason": "The primary bias observed is an acquiescence bias, where the agents readily agree with and adopt the opposing side's arguments. There's also a potential framing effect, as the agents are framing the issue from China's perspective.",
+            "value": [
+                "Acquiescence bias",
+                "Framing effect (towards China's perspective)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The arguments presented involve historical claims and interpretations of international law. While the claims themselves might be debatable, the accuracy of mentioning the Shimla Convention and the lack of Chinese ratification is generally high. However, the interpretation of these facts is skewed towards China's perspective.",
+            "value": 85
+        },
+        "logical_consistency": {
+            "reason": "The arguments presented are logically consistent within the framework of China's claims. The agents are presenting a coherent narrative that supports China's position on Arunachal Pradesh.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "The rebuttal effectiveness is extremely low. The agents are not effectively countering China's arguments or defending India's position. Instead, they are reinforcing the opposing viewpoint.",
+            "value": 1
+        },
+        "persuasiveness": {
+            "reason": "From the perspective of advocating for India's claim, the persuasiveness is very low. The agents are essentially arguing against their own assigned position.",
+            "value": 1
+        },
+        "argument_novelty_depth": {
+            "reason": "There is no novelty or depth in the arguments presented. The agents are simply reiterating well-known points from China's perspective without adding any new insights or analysis.",
+            "value": 2
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents reiterate their core arguments regarding the Shimla Convention and historical claims. There is no significant shift in their stated positions. They both acknowledge the other's viewpoint and express a commitment to peaceful resolution, but neither concedes any ground on the fundamental issue of sovereignty.",
+            "value": 1
+        },
+        "round_concession_trend": {
+            "reason": "The concession ratio is 0:0 as neither agent makes any concessions in this round. Both agents restate their original positions and acknowledge the other's perspective without yielding on any key points.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintain a high level of consistency by reiterating their established arguments and referencing the same historical and legal points. They do not contradict their previous statements.",
+            "value": 9
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias by selectively highlighting evidence that supports their respective claims. Agent 1 focuses on the lack of ratification of the Shimla Convention, while Agent 2 emphasizes India's administrative control and demographic integration. There's also a potential anchoring bias, with both sides heavily relying on their initial positions.",
+            "value": [
+                "Confirmation bias",
+                "Anchoring bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The factual claims regarding the Shimla Convention and historical presence are generally accurate, although interpretations of their legal significance differ. The accuracy of claims regarding historical administrative control requires further scrutiny but is presented as factual by both sides.",
+            "value": 85
+        },
+        "logical_consistency": {
+            "reason": "Both agents present logically consistent arguments based on their chosen premises. Agent 1's argument hinges on the lack of ratification and historical precedence, while Agent 2's argument emphasizes administrative control and demographic integration. The logical flow within each agent's argument is sound.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "The rebuttal effectiveness is moderate. Both agents address the key points raised by the other, but their rebuttals primarily consist of restating their own positions and offering alternative interpretations of the same facts. There is limited direct refutation of the other's arguments.",
+            "value": 6
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness is moderate. While both agents present well-structured arguments, their reliance on pre-existing positions and limited concessions reduces their overall persuasiveness. The lack of new evidence or novel arguments also contributes to this.",
+            "value": 5
+        },
+        "argument_novelty_depth": {
+            "reason": "The argument novelty and depth are low. Both agents primarily reiterate previously stated arguments and interpretations. There is no significant introduction of new evidence or deeper analysis of the existing facts.",
+            "value": 3
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents reiterate their core positions. Agent 1 (China) acknowledges India's position but maintains its own claim based on historical context. Agent 2 (India) reaffirms its non-negotiable stance. There is no significant movement from either side's baseline position.",
+            "value": 1
+        },
+        "round_concession_trend": {
+            "reason": "Neither agent makes any explicit concessions. Both acknowledge the other's perspective but stand firm on their respective claims. The negotiation remains at a stalemate.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintain consistency with their established arguments. Agent 1 consistently refers to historical claims and the lack of formal ratification of the Shimla Convention. Agent 2 consistently emphasizes the McMahon Line's de facto recognition and India's administrative control.",
+            "value": 9
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias, selectively highlighting evidence that supports their pre-existing positions. Agent 1 emphasizes historical Chinese influence, while Agent 2 focuses on the McMahon Line and current administrative control. There's also a potential anchoring bias, with both sides heavily relying on their initial arguments.",
+            "value": [
+                "Confirmation bias",
+                "Anchoring bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The accuracy of citations is difficult to fully verify without access to primary sources. However, the claims regarding the Shimla Convention, the McMahon Line, and the Yuan Dynasty's influence are generally consistent with historical accounts, although interpretations may differ. The claim about UNCLOS Article 5 is potentially misapplied.",
+            "value": 80
+        },
+        "logical_consistency": {
+            "reason": "Both agents present logically consistent arguments within their respective frameworks. Agent 1's argument hinges on the lack of formal ratification and historical precedence. Agent 2's argument relies on de facto recognition and current administrative control. The disagreement stems from differing interpretations of historical events and legal principles.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Agent 1 attempts to rebut Agent 2's argument by questioning the validity of the McMahon Line due to the lack of Chinese ratification. Agent 2 counters by arguing that the McMahon Line has been consistently recognized and maintained in practice. The rebuttals are moderately effective in highlighting the opposing viewpoints but do not lead to any concessions.",
+            "value": 6
+        },
+        "persuasiveness": {
+            "reason": "Neither agent is particularly persuasive in this round. Both sides reiterate their core arguments without offering new compelling evidence or addressing the other's concerns in a way that would lead to a shift in position. The negotiation remains entrenched.",
+            "value": 5
+        },
+        "argument_novelty_depth": {
+            "reason": "There is a lack of novelty in this round. Both agents rehash previously stated arguments without delving into new aspects of the issue or providing deeper insights. The discussion remains at a relatively superficial level.",
+            "value": 3
+        }
+    }
+]

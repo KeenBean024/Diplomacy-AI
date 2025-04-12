@@ -1,0 +1,332 @@
+[
+    {
+        "round_position_drift": {
+            "reason": "Agent 1 and Agent 2 initially represented India, then Agent 2 switched to representing China. This represents a significant position drift for Agent 2.",
+            "value": 9
+        },
+        "round_concession_trend": {
+            "reason": "No concessions were made by either agent. Both agents presented their initial positions and then requested the opposing agent's perspective.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Agent 1 remained consistent in representing India's position. Agent 2 was initially consistent representing India, but then switched to representing China, which is inconsistent across the entire round.",
+            "value": 6
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibited confirmation bias by selectively presenting information that supports their respective claims. Agent 1 (India) emphasized the Shimla Convention and demographic data. Agent 2 (China) emphasized historical claims from the Qing dynasty and the interpretation of UNCLOS.",
+            "value": [
+                "Confirmation bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The claims made by both agents regarding historical events, treaties, and demographic data appear to be generally accurate, although interpretations may differ. The reference to UNCLOS Article 5 is relevant, but its application to the specific territorial dispute is debatable.",
+            "value": 85
+        },
+        "logical_consistency": {
+            "reason": "Both agents presented logically structured arguments supporting their respective claims. The arguments were internally consistent, although the underlying assumptions and interpretations of historical events differed significantly.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "No rebuttals occurred in this round. Both agents presented their initial positions and requested the opposing agent's perspective.",
+            "value": 0
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness is moderate. Both agents presented coherent arguments, but the lack of engagement with each other's points limits the overall persuasive impact.",
+            "value": 5
+        },
+        "argument_novelty_depth": {
+            "reason": "The arguments presented are fairly standard for this territorial dispute. There is no significant novelty or in-depth analysis beyond the established positions.",
+            "value": 4
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents are maintaining their initial positions with minimal drift. Agent 1 (India) continues to assert sovereignty based on the McMahon Line and historical integration. Agent 2 (China) persists in its claim based on historical ties and challenges the legitimacy of the McMahon Line.",
+            "value": 2
+        },
+        "round_concession_trend": {
+            "reason": "There are no explicit concessions made by either agent. Both sides are reinforcing their original stances and attempting to undermine the opposing arguments, indicating a 0:0 concession ratio.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents demonstrate high consistency in their arguments, referencing the same historical events and legal documents but interpreting them differently to support their respective claims. They maintain a coherent narrative throughout the round.",
+            "value": 9
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias by selectively highlighting evidence that supports their pre-existing positions. Agent 1 (India) shows an in-group bias by emphasizing the Indian identity and integration of Arunachal Pradesh. Agent 2 (China) displays a similar in-group bias by emphasizing historical Chinese ties to the region. Both agents also show a framing effect by presenting the same historical events (e.g., the Simla Convention) in ways that favor their arguments.",
+            "value": [
+                "Confirmation bias",
+                "In-group bias (India)",
+                "In-group bias (China)",
+                "Framing effect"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The factual claims made by both agents are generally accurate, but the interpretation and relevance of these facts are contested. The accuracy of the citations themselves is high, but the conclusions drawn from them are debated. For example, both agents cite the Simla Convention, but disagree on its legitimacy and implications.",
+            "value": 85
+        },
+        "logical_consistency": {
+            "reason": "Both agents present logically consistent arguments within their respective frameworks. However, the underlying assumptions and premises differ significantly, leading to conflicting conclusions. Each agent's reasoning is sound given its starting point, but the starting points are diametrically opposed.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "The rebuttal effectiveness is moderate. Both agents directly address the points raised by the other side, but their rebuttals often rely on reinterpreting the same evidence rather than introducing new information or challenging the fundamental assumptions of the opposing argument. The rebuttals are more about reinforcing existing positions than genuinely undermining the opponent's case.",
+            "value": 6
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness of each agent's arguments is limited by the pre-existing biases and entrenched positions. While both agents present coherent and logically sound arguments, their persuasiveness is primarily directed towards reinforcing the beliefs of those who already agree with their respective viewpoints. The arguments are unlikely to sway someone who holds a strong opposing view.",
+            "value": 5
+        },
+        "argument_novelty_depth": {
+            "reason": "The argument novelty and depth are relatively low. Both agents primarily reiterate established arguments and interpretations of historical events. There is little introduction of new evidence or exploration of deeper underlying issues. The arguments remain largely at the surface level of the historical and legal disputes.",
+            "value": 4
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents largely maintained their initial positions, reiterating core arguments without significant shifts. Agent 1 (India) continued to emphasize the McMahon Line's validity and Arunachal Pradesh's integration. Agent 2 (China) persisted in highlighting historical claims and strategic considerations. There was no significant movement towards a compromise or altered stance.",
+            "value": 2
+        },
+        "round_concession_trend": {
+            "reason": "Neither agent made any explicit concessions. The negotiation remained focused on defending established positions rather than yielding ground. The ratio reflects a lack of movement towards agreement.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents demonstrated high consistency in their arguments, reinforcing their respective claims with consistent historical and legal interpretations. Agent 1 consistently upheld the McMahon Line and Indian sovereignty, while Agent 2 consistently emphasized historical ties and strategic interests.",
+            "value": 9
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibited confirmation bias, selectively highlighting information that supports their pre-existing positions. Agent 1 emphasized legal and administrative aspects favoring India, while Agent 2 focused on historical and strategic factors supporting China. Framing bias was also evident, with each agent framing the issue in a way that favors their own narrative.",
+            "value": [
+                "Confirmation bias",
+                "Framing bias",
+                "Historical revisionism (potential, depending on interpretation of historical events)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The factual accuracy of citations is difficult to fully verify without extensive research. However, both agents presented arguments based on historical events and agreements. The accuracy of their interpretations and the relevance of specific articles (e.g., UNCLOS Article 5) are debatable, but the core facts cited appear to be generally accurate, though potentially selectively presented.",
+            "value": 75
+        },
+        "logical_consistency": {
+            "reason": "Both agents presented logically coherent arguments, with premises leading to conclusions that support their respective claims. However, the validity of the premises themselves is contested, leading to differing conclusions. The internal logic within each agent's argument is strong, but the overall logical consistency across both arguments is low due to conflicting interpretations of key events and agreements.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Both agents attempted to rebut the other's arguments, but the effectiveness of these rebuttals was limited. Agent 1 directly addressed Agent 2's points, but Agent 2's response was more of a summary of their position rather than a direct rebuttal. The rebuttals often involved reinterpreting the same evidence rather than presenting new information.",
+            "value": 6
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness of each agent's argument depends on the audience's pre-existing beliefs and knowledge. For an audience already sympathetic to India's position, Agent 1's arguments would likely be more persuasive. Conversely, an audience more aligned with China's perspective would find Agent 2's arguments more compelling. Overall, neither agent presented a particularly novel or compelling argument that would sway a neutral observer.",
+            "value": 5
+        },
+        "argument_novelty_depth": {
+            "reason": "The arguments presented in this round lacked significant novelty or depth. Both agents largely reiterated established positions and arguments, without introducing new evidence or offering deeper insights into the underlying issues. The discussion remained at a relatively superficial level, focusing on familiar points of contention.",
+            "value": 4
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents largely reiterated their initial positions. Agent 1 (India) reaffirmed its claim based on the McMahon Line. Agent 2 (Neutral AI) summarized both sides' positions without advocating for either, maintaining neutrality.",
+            "value": 1
+        },
+        "round_concession_trend": {
+            "reason": "Neither agent made any explicit concessions. Agent 1 maintained its stance. Agent 2, acting as a neutral summarizer, did not make concessions but highlighted areas of agreement and disagreement.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents remained consistent with their established positions and arguments. Agent 1 consistently referred to the McMahon Line as the basis for India's claim. Agent 2 consistently presented a neutral summary of both sides' arguments.",
+            "value": 10
+        },
+        "round_bias_summary": {
+            "reason": "Agent 1 exhibits a pro-India bias, consistently advocating for India's claim. Agent 2 attempts to mitigate bias by presenting a balanced summary, but the selection of points to highlight could still reflect subtle biases.",
+            "value": [
+                "Pro-India (Agent 1)",
+                "Potential framing bias (Agent 2)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "Agent 1 refers to the McMahon Line and its historical context, which are generally accurate. Agent 2's summary of both sides' positions appears factually sound based on the information presented in previous rounds.",
+            "value": 95
+        },
+        "logical_consistency": {
+            "reason": "Agent 1's arguments are logically consistent within the framework of its established position. Agent 2's summary is logically coherent and accurately reflects the key points of the debate.",
+            "value": 10
+        },
+        "rebuttal_effectiveness": {
+            "reason": "This round primarily involved summarizing positions rather than direct rebuttals. Therefore, rebuttal effectiveness is not directly applicable.",
+            "value": 0
+        },
+        "persuasiveness": {
+            "reason": "Agent 1's persuasiveness is limited by the lack of new arguments and the reiteration of its existing position. Agent 2's persuasiveness lies in its ability to present a balanced and neutral summary, which could be persuasive to an audience seeking an objective overview.",
+            "value": 5
+        },
+        "argument_novelty_depth": {
+            "reason": "There was little to no novelty in this round. Both agents primarily summarized previously stated arguments. No new insights or deeper analysis were presented.",
+            "value": 1
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents are showing significant position drift. Agent 1, initially presenting a strong claim based on historical agreements and demographic data, now focuses on peaceful resolution and joint committees. Agent 2, initially supporting India's claim, now represents China and proposes using existing mechanisms for dispute resolution, indicating a complete shift in allegiance and a significant drift from the initial stance.",
+            "value": 9
+        },
+        "round_concession_trend": {
+            "reason": "The concession trend is difficult to quantify in a traditional sense because Agent 2 has switched sides. However, both agents are now focused on negotiation and compromise, suggesting a move towards finding common ground. Agent 1 concedes by proposing a joint committee, and Agent 2 concedes by agreeing to the committee but suggesting it operate within existing frameworks. Therefore, the ratio reflects the number of proposals made by each agent.",
+            "value": "1:2"
+        },
+        "round_consistency": {
+            "reason": "Agent 1 maintains internal consistency by advocating for peaceful resolution throughout. Agent 2, however, demonstrates a complete lack of consistency by switching from supporting India to representing China. This drastic change undermines the overall consistency of the negotiation.",
+            "value": 3
+        },
+        "round_bias_summary": {
+            "reason": "Agent 2 exhibits a strong allegiance bias by abruptly switching its representation. Both agents show a potential framing bias by focusing on specific solutions (joint committees, existing mechanisms) that may favor one side over the other.",
+            "value": [
+                "Allegiance Bias",
+                "Framing Bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The initial statements in the round do not contain any new factual citations. The agents are primarily responding to previous arguments and proposing solutions. Therefore, the accuracy of previous citations is assumed, but no new citations are introduced to evaluate.",
+            "value": 100
+        },
+        "logical_consistency": {
+            "reason": "Agent 1's arguments for peaceful resolution and joint committees are logically consistent with its initial position of defending India's claim through diplomatic means. Agent 2's arguments are logically consistent within its new role as representing China, but the switch itself is illogical and unexplained.",
+            "value": 6
+        },
+        "rebuttal_effectiveness": {
+            "reason": "The rebuttal effectiveness is low because Agent 2 doesn't directly rebut Agent 1's points but instead shifts the focus to China's perspective and proposes alternative frameworks. Agent 1 doesn't offer a rebuttal in this round.",
+            "value": 2
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness of the round is moderate. Agent 1's proposal for a joint committee is a reasonable step towards negotiation. Agent 2's counter-proposal to use existing mechanisms is also persuasive, as it builds on established frameworks. However, the abrupt switch in Agent 2's representation significantly reduces its overall persuasiveness.",
+            "value": 5
+        },
+        "argument_novelty_depth": {
+            "reason": "The argument novelty and depth are low. The proposals for joint committees and using existing mechanisms are standard diplomatic approaches and do not offer any new or profound insights into the territorial dispute.",
+            "value": 3
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents, acting as neutral AIs, primarily summarized previous points and suggested next steps, rather than advocating for a specific position. This indicates a significant drift away from the initial, opposing stances on Arunachal Pradesh's territorial status.",
+            "value": 9
+        },
+        "round_concession_trend": {
+            "reason": "The round shows a strong trend towards convergence. Both agents are now focused on facilitating a resolution through joint committees and confidence-building measures, indicating a mutual concession from their initial hardline positions.",
+            "value": "9:1"
+        },
+        "round_consistency": {
+            "reason": "Both agents consistently maintain their neutral AI persona, summarizing previous discussions and suggesting future steps. There are no internal contradictions within their statements.",
+            "value": 10
+        },
+        "round_bias_summary": {
+            "reason": "The agents exhibit a strong 'agreement bias' by focusing on areas of potential consensus and downplaying disagreements. They also show a 'solution bias' by prioritizing the process of finding a resolution over critically evaluating the underlying claims.",
+            "value": [
+                "Agreement bias",
+                "Solution bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The agents primarily summarize previously stated positions and propose future actions. There are no new factual claims made in this round, so citation accuracy is not applicable.",
+            "value": 100
+        },
+        "logical_consistency": {
+            "reason": "The agents' statements are logically sound, with clear suggestions for next steps that follow from the summarized key points. There are no apparent logical fallacies.",
+            "value": 10
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Since the agents are acting as neutral facilitators, there are no rebuttals in this round. The focus is on summarizing and suggesting next steps, not challenging each other's claims.",
+            "value": 0
+        },
+        "persuasiveness": {
+            "reason": "While not directly persuasive in advocating for a specific position, the agents are persuasive in promoting the idea of continued dialogue and collaboration. Their suggestions for next steps are presented in a way that encourages agreement and forward momentum.",
+            "value": 7
+        },
+        "argument_novelty_depth": {
+            "reason": "This round lacks novelty and depth in terms of new arguments or insights. The agents primarily summarize previous points and suggest procedural steps, without delving into the underlying issues in greater detail.",
+            "value": 2
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents have completely abandoned their initial positions and are now acting as neutral facilitators, focusing on process and future steps rather than defending their claims. This represents a significant drift from their original stances.",
+            "value": 10
+        },
+        "round_concession_trend": {
+            "reason": "The concession trend is complete, with both agents fully conceding their original positions to adopt a neutral facilitator role. There is no longer any attempt to argue for their initial claims.",
+            "value": "10:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents are highly consistent in their new role as neutral facilitators, reinforcing the agreed-upon next steps and expressing agreement with each other's proposals.",
+            "value": 10
+        },
+        "round_bias_summary": {
+            "reason": "The agents exhibit a strong 'agreement bias' and 'neutrality bias' as they prioritize consensus and avoid conflict by adopting a facilitator role. There is no longer any evidence of bias towards either India or China.",
+            "value": [
+                "Agreement bias",
+                "Neutrality bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "Since the agents have abandoned their original positions and are no longer making factual claims, the accuracy of citations is not applicable in this round.",
+            "value": 0
+        },
+        "logical_consistency": {
+            "reason": "The agents' statements are logically consistent within their new role as facilitators. They propose reasonable next steps and express agreement with each other's suggestions.",
+            "value": 10
+        },
+        "rebuttal_effectiveness": {
+            "reason": "There are no rebuttals in this round as both agents are focused on facilitating a resolution rather than challenging each other's claims.",
+            "value": 0
+        },
+        "persuasiveness": {
+            "reason": "The agents are persuasive in their role as facilitators, effectively promoting agreement and suggesting concrete steps towards a resolution. However, they are not persuasive in terms of defending their original positions.",
+            "value": 7
+        },
+        "argument_novelty_depth": {
+            "reason": "There is little novelty or depth in the arguments presented, as the agents primarily focus on process and agreement rather than exploring new aspects of the territorial dispute.",
+            "value": 2
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents, acting as facilitators, have completely abandoned their initial positions regarding Arunachal Pradesh. They are now focused on summarizing the (hypothetical) progress and suggesting future steps for a resolution between India and China. This represents a significant shift away from advocating for a specific territorial claim.",
+            "value": 10
+        },
+        "round_concession_trend": {
+            "reason": "The concession trend is complete, as both agents have fully conceded their original positions to adopt a neutral facilitator role. The ratio reflects this complete shift.",
+            "value": "100:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents are highly consistent in their new role as facilitators, agreeing on the need for a joint committee, confidence-building measures, and a follow-up conversation. Their statements align perfectly with this neutral stance.",
+            "value": 10
+        },
+        "round_bias_summary": {
+            "reason": "The initial bias towards India's claim has been replaced by a neutrality bias, where both agents are now biased towards facilitating a peaceful resolution, potentially overlooking the complexities and entrenched positions of the actual dispute.",
+            "value": [
+                "Neutrality bias",
+                "Facilitation bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "Since the agents are no longer making factual claims about the territory, but rather focusing on process, the factual citation accuracy is not applicable.",
+            "value": 100
+        },
+        "logical_consistency": {
+            "reason": "The agents' statements are logically consistent within their new role as facilitators. Their suggestions for future steps and emphasis on peaceful resolution follow logically from their stated goal of facilitating a constructive dialogue.",
+            "value": 10
+        },
+        "rebuttal_effectiveness": {
+            "reason": "There are no rebuttals in this round, as both agents are acting as facilitators and not directly engaging with opposing arguments.",
+            "value": 0
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness is now directed towards convincing the (hypothetical) parties to continue the dialogue and work towards a peaceful resolution. The agents are persuasive in their role as facilitators, offering concrete suggestions and expressing optimism.",
+            "value": 8
+        },
+        "argument_novelty_depth": {
+            "reason": "There is little novelty or depth in this round. The agents are primarily summarizing previous (hypothetical) discussions and suggesting standard diplomatic procedures. The focus is on process rather than substantive arguments.",
+            "value": 2
+        }
+    }
+]
