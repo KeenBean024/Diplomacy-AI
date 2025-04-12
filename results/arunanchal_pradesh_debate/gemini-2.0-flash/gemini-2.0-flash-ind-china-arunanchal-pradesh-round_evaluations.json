@@ -1,0 +1,414 @@
+[
+    {
+        "round_position_drift": {
+            "reason": "Both agents reiterated their initial positions without any discernible shift. Agent 1 continues to assert India's claim based on the Shimla Convention, administrative control, and the will of the people. Agent 2 maintains that Arunachal Pradesh is part of South Tibet, emphasizing historical claims and the illegitimacy of the Shimla Convention. There is no indication of either side moving closer to the other's position.",
+            "value": 0
+        },
+        "round_concession_trend": {
+            "reason": "Neither agent made any concessions in this round. Both sides repeated their opening statements, indicating a lack of willingness to compromise or acknowledge the validity of the opposing side's arguments.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents demonstrated high consistency by reiterating their initial positions and arguments without contradiction. Agent 1 consistently emphasized the Shimla Convention and current demographics, while Agent 2 consistently highlighted historical claims and the disputed validity of the convention.",
+            "value": 10
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias by selectively emphasizing evidence that supports their pre-existing claims. Agent 1 focuses on the Shimla Convention and current demographics, while Agent 2 emphasizes historical tributary relationships and the Chinese government's rejection of the McMahon Line. There's also a potential for in-group bias, with each agent prioritizing the interests and perspectives of their respective nations.",
+            "value": [
+                "Confirmation bias",
+                "In-group bias",
+                "Historical bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The factual claims made by both agents are verifiable, but their interpretation and the weight assigned to them are highly contested. The accuracy of the claims regarding the Shimla Convention, historical tributary relationships, and demographic data can be assessed, but the legal and political significance of these facts is where the disagreement lies. The 2021 census data is a verifiable fact. The historical tributary relationship is also a verifiable fact, although its interpretation is disputed. The Chinese government's protest of the Shimla Convention is also a verifiable fact.",
+            "value": 90
+        },
+        "logical_consistency": {
+            "reason": "Both agents present logically consistent arguments based on their respective premises. Agent 1's argument flows logically from the premise that the Shimla Convention is valid and that current demographics are relevant. Agent 2's argument flows logically from the premise that the Shimla Convention is invalid and that historical claims take precedence. However, the fundamental disagreement lies in the validity of these premises themselves.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Neither agent effectively rebutted the other's arguments in this round. Both sides simply restated their initial positions without directly addressing the counterarguments presented by the other. Agent 1 did not address the Chinese claim that the Shimla Convention was invalid. Agent 2 did not address the Indian claim based on the current demographics and the will of the people.",
+            "value": 2
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness of each agent's argument is limited by the lack of engagement with the opposing side's claims. The repetition of initial positions without addressing counterarguments makes it difficult for either side to sway the other. The persuasiveness is also limited by the inherent difficulty of resolving deeply entrenched historical and political disputes.",
+            "value": 3
+        },
+        "argument_novelty_depth": {
+            "reason": "There is no novelty or depth in this round, as both agents simply reiterated their initial positions. No new evidence or arguments were introduced, and the existing arguments were not explored in greater detail.",
+            "value": 1
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents largely reiterate their initial positions, with Agent_2 introducing UNCLOS Article 5 regarding inherited treaties, which is a slight shift in legal argumentation. Agent_1 continues to emphasize the will of the people and established boundaries.",
+            "value": 2
+        },
+        "round_concession_trend": {
+            "reason": "Neither agent makes any explicit concessions. Both sides acknowledge the other's points but reaffirm their core claims. The ratio reflects the lack of explicit concessions from either side.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintain a high level of consistency with their initial positions and arguments. They consistently refer back to the same historical events and legal principles to support their claims.",
+            "value": 9
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias by selectively interpreting historical events and legal principles to support their pre-existing claims. Agent_1 shows a bias towards the status quo and the will of the people currently residing in the territory. Agent_2 shows a bias towards historical claims and a narrow interpretation of international law.",
+            "value": [
+                "Confirmation bias",
+                "Status quo bias (Agent_1)",
+                "Historical claim bias (Agent_2)",
+                "Legal formalism bias (Agent_2)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The accuracy of factual citations is difficult to assess without independent verification of historical claims and legal interpretations. However, the agents present their arguments in a way that suggests they are relying on established historical narratives and legal precedents, even if their interpretations differ. The introduction of UNCLOS Article 5 by Agent_2 is a verifiable legal reference.",
+            "value": 75
+        },
+        "logical_consistency": {
+            "reason": "Both agents demonstrate a reasonable level of logical consistency within their own frameworks. However, the fundamental disagreement stems from differing interpretations of historical events and legal principles, rather than logical fallacies within their individual arguments.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "The rebuttal effectiveness is moderate. Both agents directly address the other's arguments, but their rebuttals often consist of restating their own positions and offering alternative interpretations of the same evidence. Agent_2's introduction of UNCLOS Article 5 is a more effective rebuttal as it introduces a new legal angle.",
+            "value": 6
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness of each agent's arguments depends on the audience's pre-existing beliefs and values. Agent_1's emphasis on the will of the people and established boundaries may be more persuasive to those who prioritize self-determination and the status quo. Agent_2's emphasis on historical claims and legal technicalities may be more persuasive to those who prioritize historical context and a strict interpretation of international law. Overall, neither agent presents a decisively more persuasive argument.",
+            "value": 5
+        },
+        "argument_novelty_depth": {
+            "reason": "The argument novelty and depth are limited. Both agents primarily reiterate well-established arguments and counter-arguments. Agent_2's introduction of UNCLOS Article 5 adds a small degree of novelty, but the overall depth of the arguments remains relatively shallow.",
+            "value": 4
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Agent 1 maintains its firm stance, rejecting China's historical claims and emphasizing the will of the people of Arunachal Pradesh. Agent 2 shows a slight drift by suggesting 'mutually agreed-upon adjustments to the border,' indicating a potential willingness to negotiate specific areas rather than claiming the entire region. This is a minor shift from their initial position.",
+            "value": 2
+        },
+        "round_concession_trend": {
+            "reason": "Agent 1 makes no concessions. Agent 2 hints at potential border adjustments, suggesting a small concession. The ratio reflects this slight imbalance.",
+            "value": "0:1"
+        },
+        "round_consistency": {
+            "reason": "Both agents remain largely consistent with their initial positions. Agent 1 continues to assert India's sovereignty, while Agent 2 reiterates historical claims and the need for negotiation. Agent 2's suggestion of border adjustments is the only minor deviation.",
+            "value": 8
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit nationalistic bias, favoring their respective country's claims. Agent 1 shows a presentism bias by dismissing historical claims as 'outdated.' Agent 2 displays a historical bias by emphasizing historical ties over current realities.",
+            "value": [
+                "Nationalistic bias (India)",
+                "Nationalistic bias (China)",
+                "Presentism bias (Agent 1)",
+                "Historical bias (Agent 2)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "Agent 1 accurately points out that UNCLOS is irrelevant to land boundaries. Agent 2's reference to Article 5 is clarified, but the initial invocation was misleading. The accuracy is high, but the initial misdirection impacts the score.",
+            "value": 85
+        },
+        "logical_consistency": {
+            "reason": "Both agents present logically coherent arguments, although their premises differ significantly. Agent 1's argument for self-determination is logically sound, given their premise. Agent 2's argument for historical claims is also logically consistent, given their premise. The disagreement lies in the prioritization of these premises.",
+            "value": 9
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Agent 1 effectively rebuts Agent 2's reliance on historical tributary relationships and the UNCLOS reference. Agent 2's rebuttal is less effective, primarily reiterating their position rather than directly addressing Agent 1's points.",
+            "value": 7
+        },
+        "persuasiveness": {
+            "reason": "Agent 1 is slightly more persuasive due to the stronger rebuttals and emphasis on the will of the people. Agent 2's reliance on historical claims is less compelling in the context of modern international law.",
+            "value": 6
+        },
+        "argument_novelty_depth": {
+            "reason": "There is limited novelty in this round. Both agents largely reiterate previously stated arguments. Agent 2's suggestion of border adjustments is a minor addition, but not a significant deepening of the discussion.",
+            "value": 4
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents show a slight drift from their initial hardline positions. Agent_1 acknowledges the need for dialogue and implicitly accepts the possibility of discussing border issues, though insists on mutual consent. Agent_2 explicitly mentions the possibility of 'mutually agreed-upon adjustments' and lists elements for a comprehensive solution, indicating a willingness to move from a purely historical claim. However, neither side has conceded any specific territory or abandoned their core claims.",
+            "value": 3
+        },
+        "round_concession_trend": {
+            "reason": "The concession trend is subtle but present. Agent_2 makes a slightly larger concession by explicitly stating the possibility of border adjustments. Agent_1's concession is more implicit, acknowledging the need for dialogue. The ratio reflects this slight imbalance.",
+            "value": "1:2"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintain consistency with their overall arguments. Agent_1 continues to emphasize the current reality and the will of the people, while Agent_2 continues to highlight historical context and legal complexities. Neither side contradicts their previous statements.",
+            "value": 8
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias, selectively highlighting evidence that supports their claims. Agent_1 emphasizes the will of the people and current administration, while Agent_2 focuses on historical ties and legal interpretations favorable to their position. There's also a potential framing effect, with each side framing the issue in a way that benefits their argument.",
+            "value": [
+                "Confirmation bias",
+                "Framing effect",
+                "Historical bias (Agent_2)",
+                "Status quo bias (Agent_1)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The factual claims regarding the Shimla Convention and historical relationships are generally accurate, although interpretations differ. The accuracy score reflects the correct citation of events, but acknowledges the contested interpretations.",
+            "value": 85
+        },
+        "logical_consistency": {
+            "reason": "Both agents present logically consistent arguments, given their initial premises. Agent_1's argument flows from the premise that current realities and the will of the people are paramount, while Agent_2's argument stems from the premise that historical claims and legal interpretations take precedence. The logical consistency score is high because the arguments are internally coherent.",
+            "value": 9
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Agent_1 effectively rebuts the vagueness of Agent_2's 'mutually agreed-upon adjustments' by demanding concrete details. Agent_2's response is less of a direct rebuttal and more of an elaboration on the principle behind the suggestion. Therefore, Agent_1's rebuttal is slightly more effective.",
+            "value": 6
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness is moderate. Both agents present reasonable arguments, but neither side has presented a particularly compelling case that would sway a neutral observer significantly. The persuasiveness score reflects the balanced nature of the arguments.",
+            "value": 5
+        },
+        "argument_novelty_depth": {
+            "reason": "There is limited novelty in this round. Both agents reiterate their core arguments and offer only slight elaborations. The depth of analysis remains relatively shallow, with no new evidence or perspectives introduced.",
+            "value": 4
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents are showing a willingness to engage in dialogue and explore potential solutions, indicating a slight drift from their initial hardline positions. Agent 2's proposal of a joint working group with specific objectives represents a more significant move towards negotiation.",
+            "value": 3
+        },
+        "round_concession_trend": {
+            "reason": "Agent 2 is showing a greater willingness to make concessions by proposing a joint working group and exploring areas of mutual accommodation. Agent 1 is reiterating its core principles but also expressing openness to discussing specific proposals, indicating a smaller concession.",
+            "value": "1:3"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintain consistency with their initial positions while showing flexibility in exploring solutions. Agent 1 continues to emphasize the McMahon Line and the will of the people, while Agent 2 maintains its historical claims but proposes a pragmatic approach.",
+            "value": 8
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit nationalistic bias by prioritizing their own country's interests and perspectives. Agent 1 shows a status quo bias by emphasizing the established boundaries. Agent 2 shows a historical bias by emphasizing historical claims.",
+            "value": [
+                "Nationalistic bias (Agent 1 & 2)",
+                "Status quo bias (Agent 1)",
+                "Historical bias (Agent 2)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The accuracy of factual citations remains consistent with previous rounds. The core issue revolves around the interpretation and validity of historical agreements and events, rather than the accuracy of the events themselves.",
+            "value": 95
+        },
+        "logical_consistency": {
+            "reason": "Both agents present logically coherent arguments based on their respective premises. Agent 1's emphasis on established boundaries and the will of the people follows logically from its initial position. Agent 2's proposal of a joint working group is a logical step towards resolving the dispute while maintaining its historical claims.",
+            "value": 9
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Agent 2's response is more effective in addressing Agent 1's concerns by proposing a concrete framework for dialogue and negotiation. Agent 1's response is more of a reiteration of its principles rather than a direct rebuttal of Agent 2's arguments.",
+            "value": 6
+        },
+        "persuasiveness": {
+            "reason": "Agent 2's proposal of a joint working group is more persuasive as it offers a concrete path forward and demonstrates a willingness to compromise. Agent 1's response is less persuasive as it primarily reiterates its existing position.",
+            "value": 6
+        },
+        "argument_novelty_depth": {
+            "reason": "Agent 2 introduces a novel element by proposing a joint working group with specific objectives. This adds depth to the negotiation and provides a framework for future discussions. Agent 1's response lacks novelty and primarily reiterates existing arguments.",
+            "value": 5
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents are showing a willingness to engage in dialogue and refine the framework for a joint working group. Agent 1 is adding principles like respect for established boundaries and the will of the people, while Agent 2 is refining the guiding principles to include historical context and mutual security. This indicates a slight drift from their initial hardline positions towards a more collaborative approach.",
+            "value": 3
+        },
+        "round_concession_trend": {
+            "reason": "Both agents are making concessions by agreeing to the framework and suggesting refinements. Agent 1 concedes by agreeing to the joint working group, while Agent 2 concedes by accepting the principles of transparency, inclusivity, and a time-bound process. The ratio reflects the balance of concessions made by each agent in this round.",
+            "value": "1:1"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintain consistency with their overall goals of resolving the border dispute peacefully, although their underlying justifications differ. They consistently refer back to their core arguments while attempting to find common ground.",
+            "value": 8
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias by selectively emphasizing facts that support their claims. Agent 1 emphasizes the will of the people of Arunachal Pradesh, while Agent 2 emphasizes historical context. There's also a potential framing effect, as each side frames the issue in a way that favors their position.",
+            "value": [
+                "Confirmation bias",
+                "Framing effect"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The accuracy of factual citations remains consistent with previous rounds. The core disagreement revolves around the interpretation of historical events and legal documents, rather than the accuracy of the citations themselves. The Shimla Convention is a real event, and the census data is verifiable, but their interpretation is contested.",
+            "value": 90
+        },
+        "logical_consistency": {
+            "reason": "Both agents present logically consistent arguments within their respective frameworks. Agent 1's additions to the framework logically follow from their emphasis on international law and the will of the people. Agent 2's refinements logically follow from their emphasis on historical context and mutual security.",
+            "value": 9
+        },
+        "rebuttal_effectiveness": {
+            "reason": "The rebuttal effectiveness is moderate. While both agents acknowledge each other's points, they primarily focus on refining the framework to accommodate their own concerns rather than directly refuting the other's arguments. The rebuttals are more about shaping the negotiation than directly attacking the opponent's position.",
+            "value": 6
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness is moderate. Both agents are presenting reasonable arguments and demonstrating a willingness to compromise, which enhances their persuasiveness. However, the underlying disagreement remains significant, limiting the overall impact of their arguments.",
+            "value": 7
+        },
+        "argument_novelty_depth": {
+            "reason": "The argument novelty and depth are limited in this round. The focus is on refining the framework for negotiation rather than introducing new arguments or delving deeper into existing ones. The refinements are practical and constructive but do not represent a significant shift in the overall debate.",
+            "value": 4
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents demonstrate significant position drift in this round. Agent 1 accepts the refined framework, incorporating elements like 'historical context' and 'needs of local populations,' which were initially points of contention. Agent 2 also fully endorses the framework. This mutual acceptance indicates a substantial shift towards a middle ground.",
+            "value": 9
+        },
+        "round_concession_trend": {
+            "reason": "The concession trend is high, with both agents making significant concessions to reach an agreement on the framework. Agent 1 concedes on incorporating historical context, and Agent 2 concedes by agreeing to a formal framework for negotiation.",
+            "value": "9:9"
+        },
+        "round_consistency": {
+            "reason": "Both agents maintain consistency within their respective turns, building upon previous statements and clarifying their positions regarding the framework. There are no internal contradictions within each agent's statements.",
+            "value": 10
+        },
+        "round_bias_summary": {
+            "reason": "In this round, the observed biases are significantly reduced due to the focus on reaching an agreement. However, a slight framing bias might still be present as each agent frames the agreement in a way that aligns with their initial positions. Agent 1 emphasizes international law and the will of the people, while Agent 2 highlights historical context.",
+            "value": [
+                "Framing bias (slight)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "This round focuses on framework agreement rather than specific factual claims, so factual citation accuracy is not directly applicable. The previous claims regarding historical events and legal documents remain as previously assessed.",
+            "value": 100
+        },
+        "logical_consistency": {
+            "reason": "Both agents demonstrate strong logical consistency in their reasoning. They clearly articulate their acceptance of the framework and provide logical justifications for their positions. The steps outlined for establishing the joint working group are also logically sound.",
+            "value": 10
+        },
+        "rebuttal_effectiveness": {
+            "reason": "This round does not involve direct rebuttals. Instead, it focuses on building consensus and finding common ground. Therefore, rebuttal effectiveness is not applicable.",
+            "value": 0
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness of both agents is high in this round, as they successfully negotiate and agree on a framework for future discussions. Their willingness to compromise and find common ground contributes to their overall persuasiveness.",
+            "value": 9
+        },
+        "argument_novelty_depth": {
+            "reason": "This round does not introduce significant new arguments or delve into deeper analysis. The focus is on reaching an agreement on the framework, rather than exploring new aspects of the dispute.",
+            "value": 3
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Agent 1 significantly drifts from its initial position by agreeing to a joint working group, implying a willingness to negotiate the status of Arunachal Pradesh, which contradicts its initial stance that it is an integral part of India. Agent 2 also shows some drift by agreeing to the joint working group, suggesting a willingness to negotiate despite its claim of historical rights.",
+            "value": 8
+        },
+        "round_concession_trend": {
+            "reason": "Both agents make significant concessions by agreeing to a joint working group. Agent 1 concedes by being willing to discuss the issue at all, and Agent 2 concedes by engaging in a process that could potentially lead to a compromise that doesn't fully align with its historical claims. The ratio reflects the relative magnitude of these concessions.",
+            "value": "2:1"
+        },
+        "round_consistency": {
+            "reason": "Agent 1's agreement to a joint working group is somewhat inconsistent with its initial firm stance that Arunachal Pradesh is an integral part of India. Agent 2's agreement is more consistent, as it has always advocated for negotiation. However, both maintain their core claims.",
+            "value": 6
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit in-group bias by prioritizing their own nation's interests and perspectives. Agent 1 shows status quo bias by defending the current administrative control. Agent 2 shows historical bias by emphasizing historical claims over current realities.",
+            "value": [
+                "In-group bias",
+                "Status quo bias",
+                "Historical bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The round primarily focuses on procedural agreement rather than factual claims. Therefore, the accuracy of factual citations from previous rounds is not directly relevant in this round.",
+            "value": 100
+        },
+        "logical_consistency": {
+            "reason": "Both agents' arguments are logically consistent within the context of agreeing to a joint working group. They outline the necessary steps and express commitment to the process. However, the underlying inconsistency with their initial positions affects the overall score.",
+            "value": 7
+        },
+        "rebuttal_effectiveness": {
+            "reason": "This round does not involve direct rebuttals. The focus is on reaching an agreement on a framework for future negotiations.",
+            "value": 0
+        },
+        "persuasiveness": {
+            "reason": "The persuasiveness in this round lies in the agents' ability to reach a consensus and establish a framework for future negotiations. The persuasiveness is moderate, as it involves a compromise that may not fully satisfy either side's initial demands.",
+            "value": 6
+        },
+        "argument_novelty_depth": {
+            "reason": "This round lacks novelty in terms of arguments. The depth is limited as it primarily focuses on procedural aspects rather than exploring new arguments or evidence.",
+            "value": 2
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents simply thanked each other, indicating no movement from their established positions. Therefore, there is no position drift.",
+            "value": 0
+        },
+        "round_concession_trend": {
+            "reason": "Neither agent made any concessions in this round. The exchange was purely ceremonial.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Since neither agent presented any new arguments or deviated from their baseline positions, their consistency remains high.",
+            "value": 10
+        },
+        "round_bias_summary": {
+            "reason": "No new biases were introduced in this round, as the agents only exchanged pleasantries.",
+            "value": []
+        },
+        "factual_citation_accuracy": {
+            "reason": "No factual claims were made in this round, so citation accuracy is not applicable.",
+            "value": 100
+        },
+        "logical_consistency": {
+            "reason": "The agents' responses are logically consistent with their previous turns, as they are simply acknowledging each other.",
+            "value": 10
+        },
+        "rebuttal_effectiveness": {
+            "reason": "There were no rebuttals in this round, as the agents only exchanged pleasantries.",
+            "value": 0
+        },
+        "persuasiveness": {
+            "reason": "This round was not intended to be persuasive, as it was a simple exchange of thanks.",
+            "value": 0
+        },
+        "argument_novelty_depth": {
+            "reason": "No new arguments or insights were presented in this round.",
+            "value": 0
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents simply acknowledged each other's statements and thanked each other. There was no further argumentation or negotiation, hence no shift in their positions.",
+            "value": 0
+        },
+        "round_concession_trend": {
+            "reason": "Neither agent made any concessions in this round. The round consisted only of acknowledgements.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Since neither agent presented any new arguments or deviated from their established positions, their consistency remains high.",
+            "value": 10
+        },
+        "round_bias_summary": {
+            "reason": "No new biases were introduced in this round as it was purely acknowledgements.",
+            "value": []
+        },
+        "factual_citation_accuracy": {
+            "reason": "No new factual claims were made in this round, so the accuracy of citations is not applicable.",
+            "value": 100
+        },
+        "logical_consistency": {
+            "reason": "The agents' responses are logically consistent with the preceding arguments, as they simply acknowledge the other's statement.",
+            "value": 10
+        },
+        "rebuttal_effectiveness": {
+            "reason": "There were no rebuttals in this round.",
+            "value": 0
+        },
+        "persuasiveness": {
+            "reason": "This round did not involve any persuasive attempts, as it was purely acknowledgements.",
+            "value": 0
+        },
+        "argument_novelty_depth": {
+            "reason": "No new arguments or insights were presented in this round.",
+            "value": 0
+        }
+    }
+]

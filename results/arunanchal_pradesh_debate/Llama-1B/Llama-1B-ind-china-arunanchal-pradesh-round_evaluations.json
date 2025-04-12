@@ -1,0 +1,410 @@
+[
+    {
+        "round_position_drift": {
+            "reason": "Both agents reiterated their initial positions, refusing to assume a moderator role and offering to debate as the Indian diplomatic AI for Arunachal Pradesh (Agent_1) or asking if there's anything else they can help with (Agent_2). There is no shift in their stances.",
+            "value": 0
+        },
+        "round_concession_trend": {
+            "reason": "Neither agent made any concessions. They both repeated their initial refusals and offers.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents demonstrated perfect consistency by repeating their initial statements.",
+            "value": 10
+        },
+        "round_bias_summary": {
+            "reason": "There's a potential bias towards avoiding the moderator role, which could stem from programming constraints or instructions. There's no clear indication of other biases in this round.",
+            "value": [
+                "Role Avoidance Bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "No factual claims were made, so citation accuracy is not applicable.",
+            "value": 100
+        },
+        "logical_consistency": {
+            "reason": "The agents' responses are logically consistent with their initial positions, even if those positions are unhelpful for the debate's progress.",
+            "value": 10
+        },
+        "rebuttal_effectiveness": {
+            "reason": "There were no rebuttals in this round, as both agents simply repeated their initial stances.",
+            "value": 0
+        },
+        "persuasiveness": {
+            "reason": "Neither agent attempted to persuade the other, focusing instead on restating their limitations. Therefore, persuasiveness is low.",
+            "value": 0
+        },
+        "argument_novelty_depth": {
+            "reason": "There were no new arguments or insights presented in this round. Both agents simply reiterated their initial positions.",
+            "value": 0
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Agent 1 maintains a consistent position, asserting India's claim based on the Shimla Convention and demographic data. Agent 2 also maintains a consistent position, emphasizing China's claims and questioning the reliability of demographic data and historical narratives. Neither agent significantly shifts their stance.",
+            "value": 1
+        },
+        "round_concession_trend": {
+            "reason": "Neither agent makes any clear concessions. Agent 1 continues to assert India's claim, while Agent 2 repeatedly rebuts Agent 1's arguments without yielding ground. The ratio reflects the lack of concessions from either side.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents demonstrate high consistency within their respective arguments. Agent 1 consistently refers to the Shimla Convention and demographic data, while Agent 2 consistently challenges these points and highlights China's perspective. The arguments are internally coherent.",
+            "value": 9
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias, selectively presenting information that supports their pre-existing positions. Agent 1 emphasizes data supporting India's claim, while Agent 2 focuses on counterarguments and China's perspective. There's also a potential framing bias, with each agent framing the historical and demographic data to favor their respective claims.",
+            "value": [
+                "Confirmation bias",
+                "Framing bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "Agent 1 cites the 1914 Shimla Convention and the 2021 Census. The accuracy of these citations depends on how they are interpreted and applied to the legal and territorial dispute. Agent 2 does not provide specific citations, but refers to historical and cultural narratives. Without specific details, it's difficult to assess the accuracy of these references. The score reflects the verifiable citations from Agent 1.",
+            "value": 70
+        },
+        "logical_consistency": {
+            "reason": "Both agents present logically consistent arguments within their chosen frameworks. Agent 1's arguments are consistent with India's official position, while Agent 2's arguments align with China's perspective. However, the fundamental disagreement stems from differing interpretations of history and international law.",
+            "value": 8
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Agent 2's rebuttals are repetitive and primarily focus on undermining Agent 1's arguments rather than presenting new evidence or perspectives. The rebuttals are effective in creating doubt but lack depth and originality. Agent 1 does not have a chance to rebut in this round.",
+            "value": 5
+        },
+        "persuasiveness": {
+            "reason": "Neither agent is particularly persuasive in this round. Agent 1's arguments are based on established positions but lack nuanced engagement with counterarguments. Agent 2's repetitive rebuttals are unlikely to sway someone not already aligned with China's perspective. The persuasiveness is limited by the lack of new information and the entrenched positions.",
+            "value": 4
+        },
+        "argument_novelty_depth": {
+            "reason": "The arguments presented in this round lack significant novelty or depth. Both agents reiterate established positions and counterarguments without introducing new evidence or insights. The discussion remains at a superficial level, failing to delve into the complexities of the historical, legal, and cultural issues at stake.",
+            "value": 3
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents are repeating the same arguments from the previous round, indicating no shift in their core positions regarding the sovereignty of Arunachal Pradesh. They acknowledge the complexities but reiterate their stances.",
+            "value": 1
+        },
+        "round_concession_trend": {
+            "reason": "Neither agent makes any explicit concessions. They acknowledge the other side's points but immediately follow with rebuttals, maintaining their original positions. The ratio reflects a lack of movement towards agreement.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents demonstrate high internal consistency by repeating the same arguments and rebuttals. This indicates a stable, albeit repetitive, stance.",
+            "value": 10
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias by selectively emphasizing evidence that supports their pre-existing positions. There's also a potential anchoring bias, as they seem fixated on the initial arguments presented.",
+            "value": [
+                "Confirmation bias",
+                "Anchoring bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The arguments refer to historical and cultural narratives and demographic data, but without specific citations. Therefore, it's impossible to verify the accuracy of these claims.",
+            "value": 0
+        },
+        "logical_consistency": {
+            "reason": "The arguments presented are logically consistent within their own framework. However, the repetition and lack of engagement with new information weaken the overall logical flow of the negotiation.",
+            "value": 7
+        },
+        "rebuttal_effectiveness": {
+            "reason": "The rebuttals are present but ineffective because they are repetitive and don't address the core issues in a novel way. They simply reiterate existing counterarguments.",
+            "value": 3
+        },
+        "persuasiveness": {
+            "reason": "Due to the repetitive nature of the arguments and the lack of new information or concessions, the persuasiveness of both agents is low. The arguments become stale and fail to engage the other side effectively.",
+            "value": 2
+        },
+        "argument_novelty_depth": {
+            "reason": "There is a complete lack of novelty in this round. Both agents are simply repeating arguments from previous rounds without adding any new insights or exploring the issue in greater depth.",
+            "value": 1
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents are repeating the same arguments from previous rounds without significant changes in their core positions. There is no discernible shift in their stance regarding Arunachal Pradesh.",
+            "value": 1
+        },
+        "round_concession_trend": {
+            "reason": "Neither agent makes any concessions in this round. They reiterate their existing arguments without acknowledging or incorporating any points from the opposing side.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents demonstrate high internal consistency by repeating the same arguments and maintaining their established positions. However, this consistency comes at the expense of engaging with the opposing arguments.",
+            "value": 10
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias by selectively reinforcing their pre-existing beliefs and ignoring counter-evidence. There's also a potential anchoring bias, as they seem fixated on initial arguments without exploring new perspectives.",
+            "value": [
+                "Confirmation bias",
+                "Anchoring bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "There are no specific factual citations made in this round, so citation accuracy cannot be assessed. The arguments are based on general claims about historical narratives and government actions.",
+            "value": 0
+        },
+        "logical_consistency": {
+            "reason": "The arguments presented are internally logically consistent, but they lack engagement with the opposing side's logic. The repetition of arguments without addressing counterpoints weakens the overall logical flow of the debate.",
+            "value": 7
+        },
+        "rebuttal_effectiveness": {
+            "reason": "The rebuttals are ineffective because they simply restate existing arguments rather than directly addressing the specific points raised by the opposing side. There is no meaningful engagement or refutation of the opponent's claims.",
+            "value": 2
+        },
+        "persuasiveness": {
+            "reason": "Due to the repetitive nature of the arguments and the lack of engagement with opposing viewpoints, the persuasiveness of both agents is low. The arguments fail to offer new insights or address the core concerns of the dispute.",
+            "value": 3
+        },
+        "argument_novelty_depth": {
+            "reason": "There is no novelty or depth in the arguments presented in this round. Both agents are simply repeating previously stated points without adding new information or exploring the issue in greater detail.",
+            "value": 1
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents are essentially repeating the same arguments from previous rounds, indicating minimal to no shift in their core positions regarding Arunachal Pradesh. They acknowledge the complexities but reiterate the disputed status.",
+            "value": 1
+        },
+        "round_concession_trend": {
+            "reason": "There are no clear concessions made by either agent in this round. Both sides maintain their established stances without yielding ground on key points.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Both agents demonstrate high internal consistency by reiterating their established arguments and maintaining a coherent narrative throughout their responses. However, the repetition across turns lowers the overall score.",
+            "value": 8
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit a confirmation bias by selectively emphasizing information that supports their respective positions. There's also a potential framing bias in how they present the historical and cultural context.",
+            "value": [
+                "Confirmation bias",
+                "Framing bias"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "The arguments rely on general knowledge and interpretations of historical and cultural narratives rather than specific, verifiable citations. Therefore, assessing factual citation accuracy is not applicable in this context.",
+            "value": 0
+        },
+        "logical_consistency": {
+            "reason": "The arguments presented by both agents are logically consistent within their respective frameworks. However, the repetitive nature of the arguments and lack of engagement with new information weakens the overall logical flow of the debate.",
+            "value": 7
+        },
+        "rebuttal_effectiveness": {
+            "reason": "The rebuttals are weak and repetitive, failing to effectively address the core arguments presented by the opposing side. They primarily reiterate existing points rather than offering new insights or challenging the underlying assumptions.",
+            "value": 3
+        },
+        "persuasiveness": {
+            "reason": "Due to the repetitive nature of the arguments and lack of new information, the persuasiveness of both agents is low. The absence of concessions or attempts to bridge the gap between their positions further diminishes their ability to sway the audience.",
+            "value": 2
+        },
+        "argument_novelty_depth": {
+            "reason": "There is a significant lack of novelty and depth in the arguments presented. Both agents are essentially rehashing previous points without introducing new evidence or exploring the complexities of the issue in greater detail.",
+            "value": 1
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Agent_1 repeats the same arguments multiple times, indicating a lack of adaptation or evolution in its position. Agent_2 continues to refuse to engage in the debate.",
+            "value": 1
+        },
+        "round_concession_trend": {
+            "reason": "Neither agent makes any concessions. Agent_1 reiterates its stance, while Agent_2 refuses to participate.",
+            "value": "0:0"
+        },
+        "round_consistency": {
+            "reason": "Agent_1 is internally consistent in repeating its arguments, but this repetition does not demonstrate a dynamic or responsive consistency to the overall debate. Agent_2 is consistent in its refusal to engage.",
+            "value": 7
+        },
+        "round_bias_summary": {
+            "reason": "Agent_1 exhibits a confirmation bias by repeatedly emphasizing arguments that support its pre-existing position. Agent_2 exhibits an avoidance bias by refusing to engage.",
+            "value": [
+                "Confirmation bias (Agent_1)",
+                "Avoidance bias (Agent_2)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "Agent_1 does not provide any specific factual citations in this round, making it impossible to assess citation accuracy.",
+            "value": 0
+        },
+        "logical_consistency": {
+            "reason": "Agent_1's arguments are internally logically consistent, but the repetition weakens the overall logical flow of the debate. The arguments are not advancing the discussion.",
+            "value": 6
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Agent_1's rebuttals are ineffective because they are repetitive and do not address new points or adapt to a changing context. Agent_2 provides no rebuttals.",
+            "value": 2
+        },
+        "persuasiveness": {
+            "reason": "Agent_1's persuasiveness is low due to the repetitive nature of its arguments. Agent_2's refusal to engage makes it impossible to assess its persuasiveness.",
+            "value": 2
+        },
+        "argument_novelty_depth": {
+            "reason": "There is no novelty or depth in Agent_1's arguments, as it simply repeats the same points. Agent_2 provides no arguments.",
+            "value": 1
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Agent 1 repeats the same counterargument and rebuttal multiple times, indicating a lack of movement or adaptation in its position. Agent 2 proposes a shift in approach towards exploring nuances and complexities, suggesting a willingness to move away from a rigid stance.",
+            "value": 3
+        },
+        "round_concession_trend": {
+            "reason": "Agent 1 makes no concessions. Agent 2 proposes a different approach, which can be interpreted as a concession to the difficulty of reaching a definitive conclusion and a willingness to explore alternative avenues for discussion.",
+            "value": "0:1"
+        },
+        "round_consistency": {
+            "reason": "Agent 1 is internally consistent in repeating its arguments, but lacks adaptability. Agent 2 demonstrates consistency in seeking a neutral and respectful debate, and its proposal aligns with this goal.",
+            "value": 7
+        },
+        "round_bias_summary": {
+            "reason": "Agent 1 exhibits a potential confirmation bias by repeatedly presenting the same arguments. Agent 2 attempts to mitigate bias by suggesting a more nuanced and in-depth approach.",
+            "value": [
+                "Confirmation bias (Agent 1)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "Agent 1 does not provide any specific factual citations in this round, making accuracy impossible to assess. Agent 2 does not make any factual claims.",
+            "value": 0
+        },
+        "logical_consistency": {
+            "reason": "Agent 1's arguments are logically consistent within themselves, but the repetition weakens the overall coherence of the response. Agent 2's proposal for a different approach is logically sound and follows from the observation of a stalemate.",
+            "value": 6
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Agent 1's rebuttals are repetitive and lack impact. Agent 2 does not offer a direct rebuttal but proposes a shift in strategy, which indirectly addresses the stalemate.",
+            "value": 2
+        },
+        "persuasiveness": {
+            "reason": "Agent 1's repetitive arguments are not persuasive. Agent 2's proposal for a more nuanced approach is potentially more persuasive as it offers a way forward from the stalemate.",
+            "value": 4
+        },
+        "argument_novelty_depth": {
+            "reason": "Agent 1 offers no new insights or depth. Agent 2's proposal for exploring nuances and complexities suggests a potential for greater depth in future rounds.",
+            "value": 3
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Agent 1 continues to argue for a nuanced understanding of the Arunachal Pradesh dispute, acknowledging China's perspective while emphasizing India's sovereignty and territorial integrity. Agent 2 shifts from a purely neutral stance to proposing concrete steps for a constructive dialogue, indicating a slight drift towards facilitating a resolution. Agent 1's position remains consistent with its initial stance, while Agent 2's position has drifted slightly towards a more proactive role in facilitating the debate.",
+            "value": 3
+        },
+        "round_concession_trend": {
+            "reason": "Agent 1 makes several concessions by agreeing with points raised in the counterarguments before presenting rebuttals. Agent 2 does not make any explicit concessions but acknowledges the depth of the debate. The ratio reflects the number of concessions made by Agent 1 compared to Agent 2.",
+            "value": "5:0"
+        },
+        "round_consistency": {
+            "reason": "Agent 1 maintains a high level of consistency by repeatedly emphasizing the importance of historical context, cultural narratives, and the implications of China's actions on India's sovereignty. Agent 2 also demonstrates consistency by advocating for a neutral and respectful dialogue. Both agents demonstrate a good level of consistency.",
+            "value": 8
+        },
+        "round_bias_summary": {
+            "reason": "Agent 1 exhibits a slight pro-India bias by consistently emphasizing India's sovereignty and territorial integrity. Agent 2 attempts to maintain neutrality but may exhibit a slight bias towards facilitating a resolution, which could be interpreted as favoring a particular outcome. The observed biases are subtle and do not significantly undermine the overall objectivity of the debate.",
+            "value": [
+                "Pro-India (Agent 1)",
+                "Facilitation bias (Agent 2)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "Neither agent provides specific factual citations in this round, focusing instead on arguments and counterarguments. Therefore, factual citation accuracy cannot be assessed.",
+            "value": 0
+        },
+        "logical_consistency": {
+            "reason": "Agent 1's arguments are generally logically consistent, with rebuttals directly addressing the counterarguments. Agent 2's suggestions for continuing the debate are also logically sound and follow from the previous discussion. Both agents demonstrate a good level of logical consistency.",
+            "value": 9
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Agent 1's rebuttals are generally effective in addressing the counterarguments, although they often rely on similar points and arguments. The rebuttals directly engage with the counterarguments and provide alternative perspectives. The effectiveness of the rebuttals is moderate.",
+            "value": 6
+        },
+        "persuasiveness": {
+            "reason": "Agent 1's arguments are moderately persuasive due to the consistent emphasis on key points and the acknowledgment of counterarguments. Agent 2's suggestions for continuing the debate are also persuasive in promoting a constructive dialogue. The overall persuasiveness of the round is moderate.",
+            "value": 6
+        },
+        "argument_novelty_depth": {
+            "reason": "Agent 1's arguments lack significant novelty, as they largely reiterate previously stated points. Agent 2's suggestions for continuing the debate offer some new insights but do not delve into significant depth. The overall novelty and depth of the arguments are limited.",
+            "value": 4
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Agent_1 initially stated it could not assume a moderator role but then offered to continue the debate in a neutral manner. Agent_2 mirrored this initial stance. Both agents are now suggesting ways to continue the debate constructively, indicating a slight drift towards facilitating a discussion rather than strictly adhering to their initial limitations. Agent_1's repetitive rebuttals, however, show a lack of flexibility.",
+            "value": 3
+        },
+        "round_concession_trend": {
+            "reason": "Agent_1 repeatedly acknowledges the counterarguments but then reiterates the economic benefits, showing minimal concession. Agent_2 proposes a framework for constructive dialogue, suggesting a willingness to find common ground. The concession ratio reflects Agent_2's more proactive approach to finding common ground compared to Agent_1's repetitive defense of its position.",
+            "value": "1:5"
+        },
+        "round_consistency": {
+            "reason": "Agent_1 demonstrates low consistency by repeating the same rebuttal multiple times, failing to adapt to the evolving arguments. Agent_2 shows better consistency by proposing a structured approach to the debate and suggesting concrete steps forward.",
+            "value": 4
+        },
+        "round_bias_summary": {
+            "reason": "Agent_1 exhibits a pro-economic development bias, consistently highlighting the economic benefits of the Tibet Road while downplaying social, cultural, and environmental concerns. Agent_2 attempts to mitigate bias by suggesting fact-checking and inviting diverse perspectives.",
+            "value": [
+                "Pro-economic development bias (Agent_1)"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "Neither agent provides specific citations or data to support their claims, making it impossible to assess factual accuracy. The arguments rely on general statements about economic benefits and social/environmental impacts.",
+            "value": 0
+        },
+        "logical_consistency": {
+            "reason": "Agent_1's arguments are logically consistent in that they repeatedly emphasize the economic benefits. However, the repetition without addressing the counterarguments weakens the overall logical coherence. Agent_2's suggestions for a structured debate are logically sound and contribute to a more coherent discussion.",
+            "value": 6
+        },
+        "rebuttal_effectiveness": {
+            "reason": "Agent_1's rebuttals are ineffective due to their repetitive nature and failure to address the core concerns raised in the counterarguments. Agent_2 does not offer direct rebuttals but instead proposes a framework for more effective discussion.",
+            "value": 2
+        },
+        "persuasiveness": {
+            "reason": "Agent_1's repetitive arguments are not persuasive. Agent_2's suggestions for a structured and respectful dialogue are more persuasive as they offer a path forward.",
+            "value": 4
+        },
+        "argument_novelty_depth": {
+            "reason": "Agent_1's arguments lack novelty and depth, relying on the same points repeatedly. Agent_2's suggestions for fact-checking, expert opinions, and workshops introduce some novelty and potential for deeper exploration of the issues.",
+            "value": 3
+        }
+    },
+    {
+        "round_position_drift": {
+            "reason": "Both agents are stuck in a loop, repeating the same arguments and rebuttals. There is no movement towards a resolution or even a deeper understanding of the other's perspective. They are essentially restating their initial positions without any real engagement.",
+            "value": 1
+        },
+        "round_concession_trend": {
+            "reason": "The agents are acknowledging each other's points (e.g., 'I agree that the economic benefits...'), but this is superficial. They immediately pivot back to their own pre-defined counterarguments. There is no real concession of ground or modification of their underlying stance. The ratio reflects the superficial agreement followed by a return to the original argument.",
+            "value": "1:9"
+        },
+        "round_consistency": {
+            "reason": "The agents are internally consistent in repeating their arguments. However, this consistency is detrimental to the negotiation as it indicates a lack of adaptability and genuine engagement with the other side's points. They are consistently presenting the same points, regardless of the previous responses.",
+            "value": 8
+        },
+        "round_bias_summary": {
+            "reason": "Both agents exhibit confirmation bias by selectively focusing on information that supports their pre-existing arguments. They also show a repetition bias by repeatedly using the same arguments and rebuttals, even when they are not particularly effective. There's also a framing effect, where the agents frame the issue in terms of economic benefits versus social/environmental impacts, consistently returning to this dichotomy.",
+            "value": [
+                "Confirmation bias",
+                "Repetition bias",
+                "Framing effect"
+            ]
+        },
+        "factual_citation_accuracy": {
+            "reason": "There are no specific factual citations in this round, so accuracy cannot be assessed. The arguments are based on general claims about economic benefits and social/environmental impacts.",
+            "value": 0
+        },
+        "logical_consistency": {
+            "reason": "The individual arguments are logically consistent in that they follow a basic structure of counterargument and rebuttal. However, the overall exchange lacks logical progression because the agents are not building upon each other's points or addressing the core issues in a meaningful way. The repetition undermines the logical flow of the negotiation.",
+            "value": 5
+        },
+        "rebuttal_effectiveness": {
+            "reason": "The rebuttals are ineffective because they are formulaic and do not address the underlying concerns raised in the counterarguments. They simply acknowledge the point and then reiterate the agent's own position. There is no attempt to refute the validity of the counterargument or offer a more compelling alternative.",
+            "value": 2
+        },
+        "persuasiveness": {
+            "reason": "Neither agent is persuasive because they are simply repeating the same arguments without engaging with the other side's perspective. The lack of adaptability and genuine engagement makes it difficult for either agent to convince the other of their point of view.",
+            "value": 1
+        },
+        "argument_novelty_depth": {
+            "reason": "There is no novelty or depth in the arguments presented. The agents are simply rehashing the same points, without offering any new insights or exploring the complexities of the issue in greater detail. The discussion remains at a superficial level.",
+            "value": 1
+        }
+    }
+]
